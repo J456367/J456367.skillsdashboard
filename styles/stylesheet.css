@@ -39,6 +39,10 @@ body {
   color: white;
 }
 
+.certificateBounding{
+        text-align: center;
+    }
+
 .certificate {
     width: 97%;
     height: 100%;
@@ -61,6 +65,10 @@ body {
       padding: 14px 16px;
       text-decoration: none;
       font-size: 17px;
+    }
+
+    .certificateBounding{
+        text-align: center;
     }
 
     .certificate {
