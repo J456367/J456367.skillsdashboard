@@ -10,4 +10,6 @@ A Think Tank Project: [Gross State Product - Chain Volume Measures](https://j456
 
 Certification page now makes use of computer vision to convert downloaded .PDF files to .PNG.
 The pdf file is opened, a screenshot is taken. Then the data is run through series of mathematical
-operations using numpy to find and isolate the certificate. 
+operations using numpy to find and isolate the certificate.
+
+This Site is constructed with Python, Javascript, HTML, CSS 
