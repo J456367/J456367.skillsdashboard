@@ -9,17 +9,48 @@
   <link href="styles\stylesheet.css" rel="stylesheet"/>
  </head>
  <body>
-  <div class="topnav">
-<a class="active" href="index.html">Home</a>
+  <div class="navbar" id="id_navbar">
+<div class="dropdown">
+<button class="dropbtn">Data Visualization</button>
+<div class="dropdown-content">
 <a href="skill_dashboard.html">Skill Dashboard</a>
-<a href="gross_state_product_chain_volume_measures.html">GSP - CVM</a>
-<a href="3d_graphics.html">3D Graphics</a>
+<a href="gross_state_product_chain_volume_measures.html">Gross State Product - Chain Volume Measures</a>
 <a href="map.html">Map Visualisation</a>
-<a href="visualisations.html">Visualisations</a>
-<a href="data_engineering.html">Data Engineering</a>
+</div>
+</div>
+<div class="dropdown">
+<button class="dropbtn">Data Engineering</button>
+<div class="dropdown-content">
+<a href="#">Link 1</a>
+<a href="#">Link 2</a>
+<a href="#">Link 3</a>
+</div>
+</div>
+<div class="dropdown">
+<button class="dropbtn">Computer-generated imagery</button>
+<div class="dropdown-content">
+<a href="3d_graphics.html">3D Graphics</a>
+<a href="#">Link 2</a>
+<a href="#">Link 3</a>
+</div>
+</div>
 <a href="Certifications.html">Certifications</a>
 <a href="Contact.html">Contact</a>
 </div>
+<div class="NavSwitch">
+<button onclick="NavSwitch()">⇓</button>
+</div>
+<script>
+   function NavSwitch() {
+     var x = document.getElementById("id_navbar");
+     if (x.style.display === "none") {
+       x.style.display = "block";
+     } else {
+       x.style.display = "none";
+     }
+   }
+
+</script>
   <p>
    Python Data visualisations will go here. All visualisations are algorithmically generated.
   </p>
