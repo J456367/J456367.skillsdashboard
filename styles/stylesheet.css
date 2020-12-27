@@ -66,6 +66,10 @@ body {
 
 @media only screen and (min-width: 800px) {
 
+    .text-container{
+      text-align: center;
+    }
+
     .navbar {
       overflow: hidden;
       background-color: #000;
@@ -137,12 +141,21 @@ body {
         left: 0;
         right: 0;
         text-align: center;
+        border:none;
+
     }
 
     .NavSwitch button{
         color: white;
         background-color: black;
-        padding: 5px 30px 10px 30px;
+        padding: 5px 0px 0px 0px;
+        background: none;
+        border: none;
+
+    }
+
+    .NavSwitch button img{
+        width: 7%;
 
     }
 
@@ -190,6 +203,14 @@ body {
 
     .additionalResources {
         text-align: center;
+    }
+
+    .additionalResources button{
+    border-color: black;
+    background-color: white;
+    color: black;
+    padding: 3px;
+    border: double;
     }
 }
 
