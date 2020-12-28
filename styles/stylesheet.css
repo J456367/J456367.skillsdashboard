@@ -24,18 +24,23 @@
     }
 
     .navbar a {
-      float: left;
+
       font-size: 36px;
       color: white;
-      text-align: center;
+      text-align: left;
       padding: 14px 16px;
       text-decoration: none;
+      display: block;
 
     }
 
     .dropdown {
       float: top;
       overflow: hidden;
+    }
+
+    .navButton {
+        display:block;
     }
 
     .dropdown .dropbtn {
@@ -128,7 +133,18 @@
     #certificateFrame {
         height: 100%;
         width: 100%;
+    }
 
+    .additionalResources {
+        text-align: center;
+    }
+
+    .additionalResources button{
+    border-color: black;
+    background-color: white;
+    color: black;
+    padding: 3px;
+    border: double;
     }
 }
 
@@ -177,6 +193,7 @@
       position: absolute;
       background-color: #f9f9f9;
       min-width: 160px;
+      padding: 0%;
       box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
       z-index: 1;
     }
@@ -260,18 +277,8 @@
 
     }
 
-    .additionalResources {
-        text-align: center;
-    }
 
-    .additionalResources button{
-    border-color: black;
-    background-color: white;
-    color: black;
-    padding: 3px;
-    border: double;
-    }
-}
+
 
 
 
