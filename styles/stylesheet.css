@@ -130,7 +130,7 @@
             padding: 4%;
         }
 
-    #certificateFrame {
+    .certificateFrame {
         height: 100%;
         width: 100%;
     }
