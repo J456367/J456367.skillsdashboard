@@ -273,9 +273,14 @@
             </div>
   </div>
   <div class="additionalResources">
-     <h3>HackerRank Badges<h3>      
-           <p><button onclick="myBadge()"> V </button> </p>
-           <div id="additionalResourcesExpand">
+            <h2>HackerRank Badges</h2>
+                <div class="certExpand">    
+                    <button onclick="myBadge()">
+                        <img    src="img_files/down-arrow.png" 
+                                alt="arrow">
+                    </button>
+                </div>
+            <div id="expandBadges">
   <div class="certificateBounding">
   <div class="certificateTall">
             <a href="">
@@ -333,24 +338,28 @@
         </div>
   </div>
   </div>
-    </div>
-    
-    <script>
-       function myBadge() {
-         var x = document.getElementById("additionalResourcesExpand");
-         if (x.style.display === "none") {
-           x.style.display = "block";
-         } else {
-           x.style.display = "none";
-         }
-       }
-       document.getElementById("additionalResourcesExpand").style.display = "none";
-    </script>'
+        </div>
+
+        <script>
+           function myBadge() {
+             var x = document.getElementById("expandBadges");
+             if (x.style.display === "none") {
+               x.style.display = "block";
+             } else {
+               x.style.display = "none";
+             }
+           }
+           document.getElementById("expandBadges").style.display = "none";
+        </script>'
   <div class="additionalResources">
-        <h3>Gnomon Tutorials<h3>
-        <p><button onclick="myTutorials()"> V </button> </p>
-    
-        <div id="GnomonWorkshopResourcesExpand">
+            <h2>Gnomon Tutorials</h2>
+                <div class="certExpand">    
+                    <button onclick="myTutorials()">
+                        <img    src="img_files/down-arrow.png" 
+                                alt="arrow">
+                    </button>
+                </div>
+            <div id="expandTutorials">
   <div class="certificateBounding">
   <div class="certificateTall">
             <a href="https://cgfutures.com/gnomon-live-2016/">
@@ -435,18 +444,18 @@
         </div>
   </div>
   </div>
-    </div>
-    
-    <script>
-       function myTutorials() {
-         var x = document.getElementById("GnomonWorkshopResourcesExpand");
-         if (x.style.display === "none") {
-           x.style.display = "block";
-         } else {
-           x.style.display = "none";
-         }
-       }
-       document.getElementById("GnomonWorkshopResourcesExpand").style.display = "none";
-    </script>'
+        </div>
+
+        <script>
+           function myTutorials() {
+             var x = document.getElementById("expandTutorials");
+             if (x.style.display === "none") {
+               x.style.display = "block";
+             } else {
+               x.style.display = "none";
+             }
+           }
+           document.getElementById("expandTutorials").style.display = "none";
+        </script>'
  </body>
 </html>

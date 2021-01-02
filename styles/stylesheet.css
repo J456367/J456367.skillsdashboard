@@ -112,6 +112,33 @@
 
     }
 
+    .certExpand{
+        text-align: center;
+        margin: 0px 0px 0px 0px;
+        position:absolute;
+        z-index:1000;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+        border:none;
+
+    }
+
+    .certExpand button{
+        color: white;
+        background-color: black;
+        padding: 0px 0px 5px 0px;
+        background: none;
+        border: none;
+
+    }
+
+    .certExpand button img{
+        width: 4%;
+
+    }
 
     .certificateBounding{
             text-align: center;
@@ -241,6 +268,34 @@
 
     .NavSwitch button img{
         width: 7%;
+
+    }
+
+    .certExpand{
+        text-align: center;
+        margin: 0px 0px 0px 0px;
+        position:absolute;
+        z-index:1000;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        text-align: center;
+        border:none;
+
+    }
+
+    .certExpand button{
+        color: white;
+        background-color: black;
+        padding: 0px 0px 5px 0px;
+        background: none;
+        border: none;
+
+    }
+
+    .certExpand button img{
+        width: 4%;
 
     }
 
