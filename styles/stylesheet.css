@@ -35,12 +35,11 @@
     .navbar {
       overflow: hidden;
       background-color: #000;
-      height: 4vh;
     }
 
     .navbar a {
 
-      font-size: 36px;
+      font-size: 20px;
       color: white;
       text-align: left;
       padding: 14px 16px;
@@ -59,7 +58,7 @@
     }
 
     .dropdown .dropbtn {
-      font-size: 36px;
+      font-size: 20px;
       border: none;
       outline: none;
       color: white;
@@ -210,6 +209,7 @@
     .navbar {
       overflow: hidden;
       background-color: #000;
+      height: 4vh;
     }
 
     .navbar a {
