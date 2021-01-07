@@ -7,6 +7,7 @@
   </title>
   <meta content="width=device-width, initial-scale=1" name="viewport"/>
   <link href="styles/stylesheet.css" rel="stylesheet"/>
+  <meta name="viewport" content="width= {screenWidth}"/>
  </head>
  <body>
   <div class="navbar" id="id_navbar">
@@ -60,7 +61,15 @@
    }
 
 </script>
-  <img alt="Background Image" src="img_files/Augment Vision.png" style="height: 100%; object-fit: contain"/>
+  <script>
+    function tensorWarning() {
+          alert("Visualisation: Sample data set used in feature engineering for classification for a neural network.");
+        }
+    tensorWarning()
+    </script>
+  <div class="divIFrame">
+        <iframe src="visualisations/Tensor_Visualisation.html" title="Tensor Test"></iframe>
+    </div>
   <div class="footer">
 <p>Logo</p>
 </div>
