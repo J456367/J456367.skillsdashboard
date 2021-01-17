@@ -211,6 +211,28 @@
       text-align: center;
     }
 
+    .ThreeDImageTall{
+      width: 100vw;
+      height: 92vh;
+      background-color: black;
+    }
+
+    .ThreeDImageTall img{
+      height: 100%
+
+    }
+
+    .ThreeDImage{
+      width: 100vw;
+      height: 92vh;
+      background-color: black;
+    }
+
+    .ThreeDImage img{
+      width: 100%
+
+    }
+
     .navbar {
       overflow: hidden;
       background-color: #000;
