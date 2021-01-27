@@ -12,4 +12,6 @@ Certification page now makes use of computer vision to convert downloaded .PDF f
 The pdf file is opened, a screenshot is taken. Then the data is run through series of mathematical
 operations using numpy to find and isolate the certificate.
 
-This Site is constructed with Python, Javascript, HTML, CSS 
+
+
+This Site is constructed with Python, Javascript, HTML, CSS.
