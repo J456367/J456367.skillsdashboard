@@ -3,7 +3,7 @@
  <head>
   <meta charset="utf-8"/>
   <title>
-   Data Engineering
+   Title
   </title>
   <meta content="width=device-width, initial-scale=1" name="viewport"/>
   <link href="styles/stylesheet.css" rel="stylesheet"/>
@@ -72,14 +72,64 @@
 
 </script>
   <div class="text-container">
-   <br/>
-   <br/>
+   <h1>
+    Augmented Vision - Data Engineering
+   </h1>
+   <iframe allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" frameborder="0" height="360" src="https://player.vimeo.com/video/313494918" width="640">
+   </iframe>
    <p>
-    Data related projects will go here, this will include, Automation, Pandas, Tensorflow, Computer Vision style projects
+    <a href="https://vimeo.com/313494918">
+     Augment Vision
+    </a>
+    from
+    <a href="https://vimeo.com/user20277328">
+     James Connolly
+    </a>
+    on
+    <a href="https://vimeo.com">
+     Vimeo
+    </a>
+    .
    </p>
    <p>
-    Projects will include descriptions and use cases
+    This software takes a photograph as input, resizes the image dependant on the maximum value of the variable N then
+            converts the photograph into a list of colours. N defines the number of Unicode characters used for a caluclation.
+            Values between 1 and 1024 can be used. A pattern can be selected which will use the Unicode characters to create a
+            2d matrix. The object is then tiled and displaced upon itself several times depending on the user defined resolution.
    </p>
+   <p>
+    The python script will then associate a colour with a Unicode value and iterate throguh all pxels in the image until
+            the image has been converted for a 2d unicode matrix to a 3d rgb matrix. The image will then be printed into a user
+            defined format such as TIFF or JPEG dependant on the the compression requirements and place in a directory. If the
+            user has selected the option to make video, the list of colours will rotate one position forwards for each frame of
+            the image. While the option for the variable N to change will allow the size of the base matrix to change. The
+            process listen in the first paragraph starts over for each new frame.
+   </p>
+   <img alt="data art" src="img_files\Augment Vision.png" width="50%"/>
+   <img alt="data art" src="img_files\Augment Vision 2.png" width="50%"/>
+   <h2>
+    Further Abstractions - Point Cloud
+   </h2>
+   <iframe allow="autoplay; fullscreen; picture-in-picture" allowfullscreen="" frameborder="0" height="360" src="https://player.vimeo.com/video/342231724" width="640">
+   </iframe>
+   <p>
+    <a href="https://vimeo.com/342231724">
+     6D Tensor - Point Cloud Visualisation
+    </a>
+    from
+    <a href="https://vimeo.com/user20277328">
+     James Connolly
+    </a>
+    on
+    <a href="https://vimeo.com">
+     Vimeo
+    </a>
+    .
+   </p>
+   <p>
+    Conversion of Data to point cloud visualisation
+   </p>
+   <img alt="data art" src="img_files\Tensor.png" width="50%"/>
   </div>
   <div class="footer">
 <p><a href="index.html">⛰</a></p>
