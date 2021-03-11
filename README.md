@@ -19,3 +19,5 @@ The site is split into 5 sections.
 The backend is currently linked and incorporates a number of automation tools to build to site out.
 - Additional Details will be added soon.
 
+Once the site is completed it will be hosted on a Cloud Computing Platform.
+
