@@ -8,7 +8,7 @@
   <meta content="width=device-width, initial-scale=1" name="viewport"/>
   <link href="styles/stylesheet.css" rel="stylesheet"/>
   <title>
-   Portfolio
+   Technology Portfolio
   </title>
   <meta name="viewport" content="width= {screenWidth}"/>
  </head>
@@ -21,11 +21,12 @@
 <a href="gross_state_product_chain_volume_measures.html">Gross State Product: Chain Volume Measures  - abs.gov.au</a>
 <a href="map.html">Map Visualisation - Test Data</a>
 <a href="Tensor_Visualisation.html">Tensor Visualisation - Desktop Only</a>
-<p><b>Computer Generated Imagery<b></b></b></p>
+<p><b>Computer Generated Imagery</b></p>
 <a href="oris_artix_chronograph.html">Oris Artix Chronograph - CGI</a>
 <a href="Buick_Riveria_-_1972.html">Buick Riveria 1972 - CGI</a>
 <a href="fortress.html">Fortress - CGI</a>
 <a href="Athena.html">Athena - CGI</a>
+<a href="#">Photogrammetry</a>
 </div>
 </div>
 <div class="dropdown">
@@ -46,15 +47,6 @@
 <a href="#">Titanic Prediction - Machine Learning - !BUILD LINK! </a>
 </div>
 </div>
-<!--  <div class="dropdown">
-    <button class="dropbtn">Computer Generated Imagery</button>
-    <div class="dropdown-content">
-      <a href="oris_artix_chronograph.html">Oris Artix Chronograph</a>
-      <a href="Buick_Riveria_-_1972.html">Buick Riveria 1972</a>
-      <a href="fortress.html">Fortress</a>
-      <a href="Athena.html">Athena</a>
-    </div>
-  </div>-->
 <a href="Certifications.html">Certifications</a>
 <a href="Contact.html">Contact</a>
 </div>
@@ -65,14 +57,15 @@
 </div>
 <script>
    function NavSwitch() {
-     var x = document.getElementById("id_navbar");
-     if (x.style.display === "none") {
-       x.style.display = "block";
+     var navBar = document.getElementById("id_navbar");
+     var content = document.getElementById("content")
+     if (navBar.style.display === "none") {
+       navBar.style.display = "block";
+       content.style.height = "92vh";
      } else {
-       x.style.display = "none";
+       navBar.style.display = "none";
+       content.style.height = "96vh";
      }
-
-
    }
 
 </script>
@@ -83,7 +76,7 @@
         }
     tensorWarning()
     </script>
-  <div class="divIFrame">
+  <div class="content"  id="content">
         <iframe src="visualisations/Tensor_Visualisation.html" 
                 title="Tensor Test"></iframe>
     </div>

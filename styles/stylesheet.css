@@ -3,7 +3,7 @@
       text-align: center;
     }
 
-    iframe {
+    IFrame {
         display: block;
         background: #0000;
         border: none;
@@ -23,7 +23,7 @@
         background-color: black
     }
 
-    .divIFrame {
+    .content {
         height: 92vh;
     }
 
