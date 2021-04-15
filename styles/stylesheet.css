@@ -3,6 +3,22 @@
       text-align: center;
     }
 
+    .text-container p {
+
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .text-container img {
+
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+
+    }
+
+
     IFrame {
         display: block;
         background: #0000;
@@ -146,6 +162,7 @@
       background-color: black;
       color: white;
       text-align: center;
+      border-top: 1px solid #00adef;
     }
 
     .footer a{
@@ -264,6 +281,8 @@
       background-color: #000;
       height: 4vh;
       min-height: 50px;
+      border-bottom: 1px solid #00adef;
+
     }
 
     .navbar a {
@@ -292,7 +311,7 @@
     }
 
     .navbar a:hover, .dropdown:hover .dropbtn {
-      background-color: #00aa00;
+      background-color: #00adef;
     }
 
     .dropdown-content {
