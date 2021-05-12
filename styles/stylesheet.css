@@ -438,14 +438,20 @@
           color: white;
         }
 
-
-
     .skills_dash {
         display: inline-block;
         width: 32vw;
         height: 48vh;
         vertical-align:top
     }
+
+    .skills_dash_double {
+        display: inline-block;
+        width: 64vw;
+        height: 48vh;
+        vertical-align:top
+    }
+
 
     .skills_dash img{
        width: 48%;
