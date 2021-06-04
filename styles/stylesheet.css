@@ -1,5 +1,5 @@
 @media only screen and (min-width: 1px) {
-    .text-container{
+    .text-container {
       text-align: center;
     }
 
@@ -18,6 +18,14 @@
 
     }
 
+    .text-container ul {
+        text-align: center;
+        list-style-position: inside;
+    }
+
+    .PolarImages {
+        width: 100%;
+    }
 
     IFrame {
         display: block;
@@ -41,6 +49,11 @@
 
     .content {
         height: 92vh;
+    }
+
+    #content_dash {
+        background-color: black;
+        height: 100%;
     }
 
     h3 {
@@ -333,6 +346,10 @@
     .ThreeDImage img{
       width: 100%
 
+    }
+
+    .PolarImages {
+        width: 360px;
     }
 
     .navbar {
