@@ -260,7 +260,7 @@
     .skills_dash_double {
         display: inline-block;
         width: 100vw;
-        height: 48vh;
+        height: 100vh;
         vertical-align:top
     }
 
