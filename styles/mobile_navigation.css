@@ -13,7 +13,7 @@
       text-align: center;
       text-decoration: none;
       color: white;
-      font-size: 3em;
+      font-size: 2em;
       font-family: 'Times New Roman';
       z-index: 10;
     }
@@ -22,7 +22,7 @@
       text-align: center;
       text-decoration: none;
       color: white;
-      font-size: 3em;
+      font-size: 2em;
       font-family: 'Roboto';
       z-index: 10;
       width: 33vw;
@@ -37,7 +37,7 @@
       outline: none;
       border: none;
       background-color: Transparent;
-      font-size: 3em;
+      font-size: 2em;
       font-family: 'Times New Roman';
       z-index: 10;
       cursor: pointer;
@@ -46,14 +46,31 @@
 
     #burger{
       position: fixed;
+      text-align: center;
+      margin: auto;
       right: 0;
       top: 0;
       color: white;
-      background: linear-gradient(45deg, #0929e4 10%, #30cafe);;
+      background: linear-gradient(45deg, #0929e4 10%, #30cafe);
       font-size: 32px;
-      padding: 16px 16px 32px 32px;
-      border-radius: 0% 0% 0% 100%;
+      padding: 16px 16px 14px 100vw;
+      border-radius: 0% 0% 0% 50%;
       transition: 2s;
+      cursor: pointer;
+    }
+
+    #burger2{
+      position: fixed;
+      text-align: center;
+      margin: auto;
+      left: 0;
+      top: 0;
+      color: white;
+      background: linear-gradient(45deg, #30cafe 10%, #0929e4);;
+      font-size: 32px;
+      padding: 16px 16px 16px 100vw;
+      border-radius: 0% 0% 0% 0%;
+      transition: 1s;
       cursor: pointer;
     }
 
@@ -92,7 +109,7 @@
       text-align: center;
       text-decoration: none;
       color: white;
-      font-size: 3em;
+      font-size: 1.8em;
       font-family: 'Times New Roman';
       z-index: 10;
     }
@@ -111,7 +128,7 @@
       text-align: center;
       text-decoration: none;
       color: white;
-      font-size: 3em;
+      font-size: 1.8em;
       font-family: 'Times New Roman';
       z-index: 10;
     }
