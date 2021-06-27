@@ -10,10 +10,13 @@ Technology Certifications: 45
 
 Technology Skill Visualisation: [Skills Dashboard](https://j456367.github.io/J456367.skillsdashboard/skill_dashboard.html)
 
-The site is split into 5 sections.
+The site is split into 6 sections.
 - Data Visualisation
+-- Dashboards & Graphs
+-- Computer Generated Imagery
 - Data Engineering
-- Computer Generated Imagery
+- Services
+- Experience
 - Education | Certifications
 - Contact
 
