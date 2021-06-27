@@ -8,8 +8,126 @@
    Technology Portfolio
   </title>
   <link href="img_files/favicon.ico" rel="shortcut icon"/>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+  <link href="styles/mobile_navigation.css" rel="stylesheet"/>
+  <link href="styles/desktop_navigation.css" rel="stylesheet"/>
+  <link href="styles/certificates.css" rel="stylesheet"/>
+  <link href="styles/footer.css" rel="stylesheet"/>
+  <link href="styles/stylesheet.css" rel="stylesheet"/>
  </head>
  <body>
+  <div class="mobile_navigation">
+<i class="material-icons" id="burger" onclick="burger()">menu</i>
+<i class="material-icons" id="quit" onclick="quit()">clear</i>
+<i class="material-icons" id="back" onclick="back()">arrow_back</i>
+<div id="links">
+<button onclick="Data_Visualisation()">Data Visualisation</button>
+<button onclick="Data_Engineering()">Data Engineering</button>
+<hr/>
+<a href="index.html">Services</a>
+<a href="index.html">Experience</a>
+<a href="Certifications.html">Certifications</a>
+<a href="Contact.html">Contact</a>
+<hr/>
+<a href="index.html"><img alt="Test Logo Remove" src="img_files/mt_test.png" style="width:50px;height:50px;"/></a>
+</div>
+<div id="Data_Visualisation">
+<a><b>Data Visualisation</b></a>
+<a href="skill_dashboard.html">Skill Dashboard</a>
+<a href="map.html">Map Visualisation - Test Data</a>
+<a href="Displacement_Mapping.html">Displacement Mapping - 3D Scatter</a>
+<a href="Tensor_Visualisation.html">Tensor Visualisation - Desktop Only</a>
+<br/>
+<a><b>Computer Generated Imagery</b></a>
+<a href="oris_artix_chronograph.html">Oris Artix Chronograph - CGI</a>
+<a href="Buick_Riveria_-_1972.html">Buick Riveria 1972 - CGI</a>
+<a href="fortress.html">Fortress - CGI</a>
+<a href="Athena.html">Athena - CGI</a>
+<a href="Photogrammetry.html">Photogrammetry</a>
+</div>
+<div id="Data_Engineering">
+<a><b>Data Engineering</b></a>
+<a href="Augmented_Vision.html">Augmented Vision - Visualization | Data Engineering</a>
+<a href="Fibonacci_Sequence.html">Fibonnaci Sequence - Visualization | Data Engineering</a>
+<a href="Polar_Geometry.html"> Polar Sequencing -  Visualization | Data Engineering</a>
+<a href="Sudoku_Solver.html">Sudoku Solver - Data Engineering</a>
+<a href="Name_Classification.html">Name Classification - Deep Learning &amp; Django</a>
+<a href="Computer_Vision.html">Computer Vision</a>
+<br/><br/>
+<a><b> --- Current Project --- </b></a>
+<a href="Titanic.html">Titanic Prediction - Machine Learning</a>
+<br/><br/>
+<a><b> --- Redirect to Services --- </b></a>
+<a href="natural_language_processing.html">Natural Language Processing - Move to Services</a>
+<a href="Forecasting.html">Forecasting - Move to Services</a>
+<a href="Automation.html">Automation - Move to Services</a>
+</div>
+<script>
+
+            function burger(){
+              var burger = document.getElementById('burger');
+              var links = document.getElementById('links');
+              var quit = document.getElementById('quit');
+              burger.style.padding = '16px 16px 200vw 200vw';
+              links.style.display = 'flex';
+              quit.style.display = 'inline';
+            }
+
+            function quit(){
+              var burger = document.getElementById('burger');
+              var links = document.getElementById('links');
+              var quit = document.getElementById('quit');
+              burger.style.padding = '16px 16px 32px 32px';
+              links.style.display = 'none';
+              quit.style.display = 'none';
+            }
+
+            function back(){
+              var burger = document.getElementById('burger');
+              var links = document.getElementById('links');
+              var quit = document.getElementById('quit');
+              var back = document.getElementById('back');
+              var vis = document.getElementById('Data_Visualisation');
+              var eng = document.getElementById('Data_Engineering');
+
+              burger.style.padding = '16px 16px 200vw 200vw';
+              links.style.display = 'flex';
+              quit.style.display = 'inline';
+              back.style.display = 'none';
+              vis.style.display = 'none';
+              eng.style.display = 'none';
+            }
+
+            function Data_Visualisation(){
+              var burger = document.getElementById('burger');
+              var links = document.getElementById('links');
+              var quit = document.getElementById('quit');
+              var vis = document.getElementById('Data_Visualisation');
+              var back = document.getElementById('back');
+
+              links.style.display = 'none';
+              vis.style.display = 'flex';
+              quit.style.display = 'none';
+              back.style.display = 'inline';
+
+            }
+
+            function Data_Engineering(){
+              var burger = document.getElementById('burger');
+              var links = document.getElementById('links');
+              var quit = document.getElementById('quit');
+              var eng = document.getElementById('Data_Engineering');
+              var back = document.getElementById('back');
+
+              links.style.display = 'none';
+              eng.style.display = 'flex';
+              quit.style.display = 'none';
+              back.style.display = 'inline';
+
+            }
+
+        </script>
+</div>
   <div class="navbar" id="id_navbar">
 <div class="dropdown">
 <button class="dropbtn">Data Visualization</button>
@@ -18,7 +136,7 @@
 <a href="map.html">Map Visualisation - Test Data</a>
 <a href="Displacement_Mapping.html">Displacement Mapping - 3D Scatter</a>
 <a href="Tensor_Visualisation.html">Tensor Visualisation - Desktop Only</a>
-<p><b>Computer Generated Imagery</b></p>
+<a><b>Computer Generated Imagery</b></a>
 <a href="oris_artix_chronograph.html">Oris Artix Chronograph - CGI</a>
 <a href="Buick_Riveria_-_1972.html">Buick Riveria 1972 - CGI</a>
 <a href="fortress.html">Fortress - CGI</a>
@@ -35,9 +153,9 @@
 <a href="Sudoku_Solver.html">Sudoku Solver - Data Engineering</a>
 <a href="Name_Classification.html">Name Classification - Deep Learning &amp; Django</a>
 <a href="Computer_Vision.html">Computer Vision</a>
-<p><b> --- Current Project --- </b></p>
+<a><b> --- Current Project --- </b></a>
 <a href="Titanic.html">Titanic Prediction - Machine Learning</a>
-<p><b> --- Redirect to Services --- </b></p>
+<a><b> --- Redirect to Services --- </b></a>
 <a href="natural_language_processing.html">Natural Language Processing - Move to Services</a>
 <a href="Forecasting.html">Forecasting - Move to Services</a>
 <a href="Automation.html">Automation - Move to Services</a>
@@ -71,7 +189,6 @@
    <img alt="Mountain" src="img_files/Mountain.png"/>
   </div>
   <div class="footer">
-<!--        <p><a href="index.html">⛰</a></p>-->
 <a href="index.html"><img alt="Test Logo Remove" src="img_files/mt_test.png" style="width:50px;height:50px;"/></a>
 </div>
  </body>
