@@ -1,4 +1,6 @@
 @media only screen and (min-width: 1px) {
+
+
     .text-container {
       text-align: center;
     }
@@ -71,178 +73,9 @@
       font-family:  "Times New Roman", Arial, Helvetica, sans-serif;
     }
 
-    .navbar {
-      overflow: hidden;
-      background-color: #000;
-      border-bottom: 1px solid #00adef;
-    }
 
-    .navbar a {
 
-      font-size: 20px;
-      color: white;
-      text-align: left;
-      padding: 14px 16px;
-      text-decoration: none;
-      display: block;
-    }
 
-    .dropdown {
-      float: top;
-      overflow: hidden;
-    }
-
-    .navButton {
-        display:block;
-    }
-
-    .dropdown .dropbtn {
-      font-size: 20px;
-      border: none;
-      outline: none;
-      color: white;
-      padding: 14px 16px;
-      background-color: inherit;
-      font-family: inherit;
-      margin: 0;
-    }
-
-    .navbar a:hover, .dropdown:hover .dropbtn {
-      background-color: #00adef;
-    }
-
-    .dropdown-content {
-      display: none;
-      background-color: #f9f9f9;
-      min-width: 160px;
-      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-      padding: 0% 0% 0% 3%;
-    }
-
-    .dropdown-content a {
-      float: none;
-      color: black;
-      padding: 12px 16px;
-      text-decoration: none;
-      display: block;
-      text-align: left;
-    }
-
-    .dropdown-content a:hover {
-      background-color: #ddd;
-    }
-
-    .dropdown:hover .dropdown-content {
-      display: block;
-      z-index:1200;
-    }
-
-    .NavSwitch{
-        text-align: center;
-        margin: 0px 0px 0px 0px;
-        position:absolute;
-        z-index:1000;
-        margin-left: auto;
-        margin-right: auto;
-        left: 0;
-        right: 0;
-        text-align: center;
-        border:none;
-
-    }
-
-    .NavSwitch button{
-        color: white;
-        background-color: black;
-        padding: 5px 0px 0px 0px;
-        background: none;
-        border: none;
-
-    }
-
-    .NavSwitch button img{
-        width: 7%;
-
-    }
-
-    .footer {
-      position: fixed;
-      left: 0;
-      bottom: 0;
-      width: 100%;
-      height: 4vh;
-      min-height: 50px;
-      background-color: black;
-      color: white;
-      text-align: center;
-      border-top: 1px solid #00adef;
-    }
-
-    .footer a{
-      color: white;
-    }
-
-    .certExpand{
-        text-align: center;
-        margin: 0px 0px 0px 0px;
-        position:absolute;
-        z-index:1000;
-        margin-left: auto;
-        margin-right: auto;
-        left: 0;
-        right: 0;
-        text-align: center;
-        border:none;
-
-    }
-
-    .certExpand button{
-        color: white;
-        background-color: black;
-        padding: 0px 0px 5px 0px;
-        background: none;
-        border: none;
-
-    }
-
-    .certExpand button img{
-        width: 4%;
-
-    }
-
-    .certificateBounding{
-            text-align: center;
-        }
-
-    .certificate {
-        width: 90%;
-        height: 100%;
-        display: inline-block;
-        padding: 2%;
-    }
-
-    .certificateTall {
-            width: 40%;
-            display: inline-block;
-            padding: 4%;
-        }
-
-    .certificateFrame {
-        height: 100%;
-        width: 100%;
-    }
-
-    .additionalResources {
-        text-align: center;
-    }
-
-    .additionalResources button{
-    border-color: black;
-    background-color: white;
-    color: black;
-    padding: 3px;
-    border: none;
-    }
 
     #content_dash {
         font-family: "Times New Roman";
@@ -308,7 +141,6 @@
 
     .text-container{
       text-align: center;
-
     }
 
      .text-container p {
@@ -352,99 +184,6 @@
         width: 360px;
     }
 
-    .navbar {
-      overflow: hidden;
-      background-color: #000;
-      height: 4vh;
-      min-height: 50px;
-      border-bottom: 1px solid #00adef;
-
-    }
-
-    .navbar a {
-      float: left;
-      font-size: 16px;
-      color: white;
-      text-align: center;
-      padding: 14px 16px;
-      text-decoration: none;
-    }
-
-    .dropdown {
-      float: left;
-      overflow: hidden;
-    }
-
-    .dropdown .dropbtn {
-      font-size: 16px;
-      border: none;
-      outline: none;
-      color: white;
-      padding: 14px 16px;
-      background-color: inherit;
-      font-family: inherit;
-      margin: 0;
-    }
-
-    .navbar a:hover, .dropdown:hover .dropbtn {
-      background-color: #00adef;
-    }
-
-    .dropdown-content {
-      display: none;
-      position: absolute;
-      background-color: #f9f9f9;
-      min-width: 160px;
-      padding: 0%;
-      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-      z-index: 1;
-    }
-
-    .dropdown-content a {
-      float: none;
-      color: black;
-      padding: 12px 16px;
-      text-decoration: none;
-      display: block;
-      text-align: left;
-    }
-
-    .dropdown-content a:hover {
-      background-color: #ddd;
-    }
-
-    .dropdown:hover .dropdown-content {
-      display: block;
-      z-index:1200;
-    }
-
-    .NavSwitch{
-        text-align: center;
-        margin: 0px 0px 0px 0px;
-        position:absolute;
-        z-index:1000;
-        margin-left: auto;
-        margin-right: auto;
-        left: 0;
-        right: 0;
-        text-align: center;
-        border:none;
-
-    }
-
-    .NavSwitch button{
-        color: white;
-        background-color: black;
-        padding: 5px 0px 0px 0px;
-        background: none;
-        border: none;
-
-    }
-
-    .NavSwitch button img{
-        width: 7%;
-
-    }
 
 
 
