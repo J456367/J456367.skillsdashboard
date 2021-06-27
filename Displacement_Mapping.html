@@ -21,6 +21,7 @@
  </head>
  <body>
   <div class="mobile_navigation">
+<li id="burger2"></li>
 <i class="material-icons" id="burger" onclick="burger()">menu</i>
 <i class="material-icons" id="quit" onclick="quit()">clear</i>
 <i class="material-icons" id="back" onclick="back()">arrow_back</i>
@@ -51,37 +52,39 @@
 </div>
 <div id="Data_Engineering">
 <a><b>Data Engineering</b></a>
-<a href="Augmented_Vision.html">Augmented Vision - Visualization | Data Engineering</a>
-<a href="Fibonacci_Sequence.html">Fibonnaci Sequence - Visualization | Data Engineering</a>
-<a href="Polar_Geometry.html"> Polar Sequencing -  Visualization | Data Engineering</a>
-<a href="Sudoku_Solver.html">Sudoku Solver - Data Engineering</a>
-<a href="Name_Classification.html">Name Classification - Deep Learning &amp; Django</a>
+<a href="Augmented_Vision.html">Augmented Vision</a>
+<a href="Fibonacci_Sequence.html">Fibonnaci Sequence</a>
+<a href="Polar_Geometry.html"> Polar Sequencing</a>
+<a href="Sudoku_Solver.html">Sudoku Solver</a>
+<a href="Name_Classification.html">Classification Application</a>
 <a href="Computer_Vision.html">Computer Vision</a>
 <br/><br/>
-<a><b> --- Current Project --- </b></a>
+<a><b> - Current Project - </b></a>
 <a href="Titanic.html">Titanic Prediction - Machine Learning</a>
-<br/><br/>
-<a><b> --- Redirect to Services --- </b></a>
-<a href="natural_language_processing.html">Natural Language Processing - Move to Services</a>
-<a href="Forecasting.html">Forecasting - Move to Services</a>
-<a href="Automation.html">Automation - Move to Services</a>
+<br/>
 </div>
 <script>
 
             function burger(){
               var burger = document.getElementById('burger');
+              var burger2 = document.getElementById('burger2');
               var links = document.getElementById('links');
               var quit = document.getElementById('quit');
+
               burger.style.padding = '16px 16px 200vw 200vw';
+              burger2.style.padding = '16px 200vw 200vw 16px';
+
               links.style.display = 'flex';
               quit.style.display = 'inline';
             }
 
             function quit(){
               var burger = document.getElementById('burger');
+              var burger2 = document.getElementById('burger2');
               var links = document.getElementById('links');
               var quit = document.getElementById('quit');
-              burger.style.padding = '16px 16px 32px 32px';
+              burger.style.padding = '16px 16px 14px 100vw';
+              burger2.style.padding = '16px 16px 16px 100vw';
               links.style.display = 'none';
               quit.style.display = 'none';
             }
