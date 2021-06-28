@@ -5,12 +5,7 @@
   <title>
    Technology Portfolio
   </title>
-  <meta content="width=device-width, initial-scale=1" name="viewport"/>
-  <link href="styles/stylesheet.css" rel="stylesheet"/>
-  <title>
-   Technology Portfolio
-  </title>
-  <link href="img_files/favicon.ico" rel="shortcut icon"/>
+  <link href="styles/dashboard.css" rel="stylesheet"/>
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
   <link href="styles/mobile_navigation.css" rel="stylesheet"/>
   <link href="styles/desktop_navigation.css" rel="stylesheet"/>
@@ -43,10 +38,10 @@
 <a href="Tensor_Visualisation.html">Tensor Visualisation - Desktop Only</a>
 <br/>
 <a><b>Computer Generated Imagery</b></a>
-<a href="oris_artix_chronograph.html">Oris Artix Chronograph - CGI</a>
-<a href="Buick_Riveria_-_1972.html">Buick Riveria 1972 - CGI</a>
-<a href="fortress.html">Fortress - CGI</a>
-<a href="Athena.html">Athena - CGI</a>
+<a href="oris_artix_chronograph.html">Oris Artix Chronograph</a>
+<a href="Buick_Riveria_-_1972.html">Buick Riveria 1972</a>
+<a href="fortress.html">Fortress</a>
+<a href="Athena.html">Athena</a>
 <a href="Photogrammetry.html">Photogrammetry</a>
 </div>
 <div id="Data_Engineering">
@@ -59,7 +54,7 @@
 <a href="Computer_Vision.html">Computer Vision</a>
 <br/><br/>
 <a><b> - Current Project - </b></a>
-<a href="Titanic.html">Titanic Prediction - Machine Learning</a>
+<a href="Titanic.html">Titanic Prediction</a>
 <br/>
 </div>
 <script>
@@ -134,90 +129,12 @@
 
         </script>
 </div>
-  <div class="navbar" id="id_navbar">
-<div class="dropdown">
-<button class="dropbtn">Data Visualization</button>
-<div class="dropdown-content">
-<a href="skill_dashboard.html">Skill Dashboard</a>
-<a href="map.html">Map Visualisation - Test Data</a>
-<a href="Displacement_Mapping.html">Displacement Mapping - 3D Scatter</a>
-<a href="Tensor_Visualisation.html">Tensor Visualisation - Desktop Only</a>
-<a><b>Computer Generated Imagery</b></a>
-<a href="oris_artix_chronograph.html">Oris Artix Chronograph - CGI</a>
-<a href="Buick_Riveria_-_1972.html">Buick Riveria 1972 - CGI</a>
-<a href="fortress.html">Fortress - CGI</a>
-<a href="Athena.html">Athena - CGI</a>
-<a href="Photogrammetry.html">Photogrammetry</a>
-</div>
-</div>
-<div class="dropdown">
-<button class="dropbtn">Data Engineering</button>
-<div class="dropdown-content">
-<a href="Augmented_Vision.html">Augmented Vision - Visualization | Data Engineering</a>
-<a href="Fibonacci_Sequence.html">Fibonnaci Sequence - Visualization | Data Engineering</a>
-<a href="Polar_Geometry.html"> Polar Sequencing -  Visualization | Data Engineering</a>
-<a href="Sudoku_Solver.html">Sudoku Solver - Data Engineering</a>
-<a href="Name_Classification.html">Name Classification - Deep Learning &amp; Django</a>
-<a href="Computer_Vision.html">Computer Vision</a>
-<a><b> --- Current Project --- </b></a>
-<a href="Titanic.html">Titanic Prediction - Machine Learning</a>
-<a><b> --- Redirect to Services --- </b></a>
-<a href="natural_language_processing.html">Natural Language Processing - Move to Services</a>
-<a href="Forecasting.html">Forecasting - Move to Services</a>
-<a href="Automation.html">Automation - Move to Services</a>
-</div>
-</div>
-<a href="index.html">Services</a>
-<a href="index.html">Experience</a>
-<a href="Certifications.html">Certifications</a>
-<a href="Contact.html">Contact</a>
-</div>
-<div class="NavSwitch">
-<button onclick="NavSwitch()">
-<img alt="arrow" src="img_files/down-arrow.png"/>
-</button>
-</div>
-<script>
-   function NavSwitch() {
-     var navBar = document.getElementById("id_navbar");
-     var content = document.getElementById("content")
-     if (navBar.style.display === "none") {
-       navBar.style.display = "block";
-       content.style.height = "92vh";
-     } else {
-       navBar.style.display = "none";
-       content.style.height = "96vh";
-     }
-   }
-
-</script>
   <div class="content" id="content_dash">      
     
-        <div class="skills_dash_double">
-            <iframe src="visualisations/skills_dashboard_output/subplots/Coursera.html"></iframe>
-        </div>
-      
-    
+        <h1>Technology Skills Dashboard</h1>
+        
         <div class="skills_dash">
-            <div class="dash-text">
-                <h1>Technology Skills Dashboard</h1>
-                <p>The purpose of this dashboard is to show case skill distribution and tools.</p>
-                <p>Technology Certifications: connect backend</p>
-    
-                <p>Work to be Done on this Dashboard:
-                    <ul>
-                    <li>Hover Details for Icons</li>
-                    <li>Create Visualisation for Missing Container</li>
-                    <li>Build out Data for Test Time Series Graph</li>
-                    <li>Adjust CSS for mobile, this will allowing scrolling visualualisation and readability</li>
-                    <li>With the coursera skills, break the bar charts down, add hackerrank, textbooks, projects<li>
-                    </ul>
-                </p>
-                
-                <p>Add details of non-technical skills, communication, strategy, implementation</p>
-            </div>
-    
-            <div class="dash-logo">
+             <div class="dash-logo">
     
                 <img src="visualisations/skills_dashboard_output/logos/python-icon.svg">
     
@@ -234,8 +151,34 @@
                 <img src="visualisations/skills_dashboard_output/logos/html-icon.svg">
                 <img src="visualisations/skills_dashboard_output/logos/css-icon.svg">
             </div>
+
+            <div class="dash-text">
+                <p>The purpose of this dashboard is to show case skill distribution and tools.</p>
+                <p>Technology Certifications: connect backend</p>
+    
+                <p>Work to be Done on this Dashboard:
+                    <ul>
+                    <li>Hover Details for Icons</li>
+                    <li>Create Visualisation for Missing Container</li>
+                    <li>Build out Data for Test Time Series Graph</li>
+                    <li>Adjust CSS for mobile, this will allowing scrolling visualualisation and readability</li>
+                    <li>With the coursera skills, break the bar charts down, add hackerrank, textbooks, projects<li>
+                    </ul>
+                </p>
+                
+                <p>Add details of non-technical skills, communication, strategy, implementation</p>
+            </div>
+    
+
     
         </div>
+        
+        <div class="skills_dash_double">
+            <iframe src="visualisations/skills_dashboard_output/subplots/Coursera.html"></iframe>
+        </div>
+      
+    
+        
     
         <div class="skills_dash">
             <iframe src="visualisations/skills_dashboard_output/subplots/SQL.html"></iframe>
