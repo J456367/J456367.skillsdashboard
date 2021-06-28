@@ -1,23 +1,19 @@
 @media only screen and (min-width: 1px) {
 
-
     .text-container {
       text-align: center;
     }
 
     .text-container p {
-
       width: 100%;
       margin-left: auto;
       margin-right: auto;
     }
 
     .text-container img {
-
       width: 100%;
       margin-left: auto;
       margin-right: auto;
-
     }
 
     .text-container ul {
@@ -50,13 +46,14 @@
     }
 
     .content {
-        height: 92vh;
+        height: calc(96vh - 61px);
+        position: absolute;
+        bottom: 4vh;
+        z-index: 1;
+
     }
 
-    #content_dash {
-        background-color: black;
-        height: 100%;
-    }
+
 
     h3 {
         display: block;
@@ -75,53 +72,6 @@
 
 
 
-
-
-    #content_dash {
-        font-family: "Times New Roman";
-        background-color: black;
-        color: white;
-        }
-
-    .skills_dash {
-        display: inline-block;
-        width: 100vw;
-        height: 48vh;
-        vertical-align:top
-    }
-
-    .skills_dash_double {
-        display: inline-block;
-        width: 100vw;
-        height: 100vh;
-        vertical-align:top
-    }
-
-
-    .skills_dash img{
-       width: 48%;
-       max-height: 10%;
-    }
-
-    .dash-logo{
-       display: inline-block;
-       vertical-align:top;
-       padding: 2%;
-       width: 16%;
-       height: 100%;
-    }
-    .dash-logo img{
-       width: 100%;
-       max-height: 9.1%;
-    }
-
-    .dash-text {
-        display: inline-block;
-        width: 74%;
-        height: 100%;
-        padding: 2%;
-
-    }
 
     .mini {
         display: inline-block;
@@ -187,111 +137,12 @@
 
 
 
-    .certExpand{
-        text-align: center;
-        margin: 0px 0px 0px 0px;
-        position:absolute;
-        z-index:1000;
-        margin-left: auto;
-        margin-right: auto;
-        left: 0;
-        right: 0;
-        text-align: center;
-        border:none;
-
-    }
-
-    .certExpand button{
-        color: white;
-        background-color: black;
-        padding: 0px 0px 5px 0px;
-        background: none;
-        border: none;
-
-    }
-
-    .certExpand button img{
-        width: 4%;
-
-    }
-
-    .certificateBounding{
-        text-align: center;
-    }
-
-    .certificate {
-        width: 240px;
-        height: 100%;
-        display: inline-block;
-        padding: 1% 2%;
-        text-align: center;
-        vertical-align:top;
-    }
-
-    .certificateTall {
-        width: 160px;
-        height: 100%;
-        display: inline-block;
-        padding: 1% 2%;
-        text-align: center;
-        vertical-align:top;
-    }
-
-    .certificate h3 {
-        vertical-align : middle;
-    }
-
-    #certificateFrame {
-        height: 100%;
-        width: 100%;
-        }
-
-
-    #content_dash {
-          font-family: "Times New Roman";
-          background-color: black;
-          color: white;
-        }
-
-    .skills_dash {
-        display: inline-block;
-        width: 32vw;
-        height: 48vh;
-        vertical-align:top
-    }
-
-    .skills_dash_double {
-        display: inline-block;
-        width: 64vw;
-        height: 48vh;
-        vertical-align:top
-    }
-
-
     .skills_dash img{
        width: 48%;
        max-height: 10%;
     }
 
-    .dash-logo{
-       display: inline-block;
-       vertical-align:top;
-       padding: 2%;
-       width: 16%;
-       height: 100%;
-    }
-    .dash-logo img{
-       width: 100%;
-       max-height: 9.1%;
-    }
 
-    .dash-text {
-        display: inline-block;
-        width: 74%;
-        height: 100%;
-        padding: 2%;
-
-    }
 
     .mini {
         display: inline-block;

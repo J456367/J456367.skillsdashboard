@@ -1,0 +1,85 @@
+
+@media only screen and (min-width: 0px) {
+
+    #content_dash {
+        font-family: "Times New Roman";
+        background-color: black;
+        color: white;
+
+    }
+
+    .skills_dash {
+        display: inline-block;
+        width: 100vw;
+        height: 48vh;
+        vertical-align:top;
+    }
+
+    .skills_dash_double {
+        display: inline-block;
+        width: 100vw;
+        height: 100vh;
+        vertical-align:top;
+    }
+
+    .skills_dash img{
+       width: 48%;
+       max-height: 10%;
+    }
+
+    .dash-logo{
+       display: inline-block;
+       vertical-align:top;
+       padding: 2%;
+       width: 16%;
+       height: 100%;
+    }
+    .dash-logo img{
+       width: 100%;
+       max-height: 9.1%;
+    }
+
+    .dash-text {
+        display: inline-block;
+        width: 74%;
+        height: 100%;
+        padding: 2%;
+    }
+}
+
+
+@media only screen and (min-width: 800px) {
+    .skills_dash {
+        display: inline-block;
+        width: 32vw;
+        height: 44vh;
+        vertical-align:top
+    }
+
+    .skills_dash_double {
+        display: inline-block;
+        width: 64vw;
+        height: 44vh;
+        vertical-align:top
+    }
+
+    .dash-logo{
+       display: inline-block;
+       vertical-align:top;
+       padding: 2%;
+       width: 16%;
+       height: 100%;
+    }
+    .dash-logo img{
+       width: 100%;
+       max-height: 9.1%;
+    }
+
+    .dash-text {
+        display: inline-block;
+        width: 74%;
+        height: 100%;
+        padding: 2%;
+
+    }
+}
