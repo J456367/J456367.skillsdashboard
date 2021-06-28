@@ -53,8 +53,6 @@
 
     }
 
-
-
     h3 {
         display: block;
         font-size: 1em;
@@ -70,7 +68,19 @@
       font-family:  "Times New Roman", Arial, Helvetica, sans-serif;
     }
 
+    .PolarImages img{
+        text-align: center;
+    }
 
+    .PolarImages {
+        width: 256px;
+        display: inline;
+    }
+
+    #polar_image {
+        background-color: black;
+        justify-content: center;
+    }
 
 
     .mini {
@@ -128,10 +138,6 @@
     .ThreeDImage img{
       width: 100%
 
-    }
-
-    .PolarImages {
-        width: 360px;
     }
 
 
