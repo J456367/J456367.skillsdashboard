@@ -1,0 +1,144 @@
+@media only screen and (min-width: 1px) {
+    .mobile_navigation {
+        z-index: 9999;
+    }
+
+    #links{
+      display: none;
+      flex-direction: column;
+      width: 100vw;
+      height: 50vh;
+      padding: 25vh 0;
+      justify-content: space-around;
+    }
+
+    #links a{
+      text-align: center;
+      text-decoration: none;
+      color: white;
+      font-size: 2em;
+      font-family: 'Times New Roman';
+      z-index: 10;
+    }
+
+     #links hr{
+      text-align: center;
+      text-decoration: none;
+      color: white;
+      font-size: 2em;
+      font-family: 'Roboto';
+      z-index: 10;
+      width: 33vw;
+      transition: 2s;
+      cursor: none;
+    }
+
+    #links button{
+      text-align: center;
+      text-decoration: none;
+      color: white;
+      outline: none;
+      border: none;
+      background-color: Transparent;
+      font-size: 2em;
+      font-family: 'Times New Roman';
+      z-index: 10;
+      cursor: pointer;
+
+    }
+
+    #burger{
+      position: fixed;
+      text-align: center;
+      margin: auto;
+      right: 0;
+      top: 0;
+      color: white;
+      background: linear-gradient(45deg, #0929e4 10%, #30cafe);
+      font-size: 32px;
+      padding: 16px 16px 14px 100vw;
+      border-radius: 0% 0% 0% 50%;
+      transition: 2s;
+      cursor: pointer;
+      z-index: 8;
+    }
+
+    #burger2{
+      position: fixed;
+      text-align: center;
+      margin: auto;
+      left: 0;
+      top: 0;
+      color: white;
+      background: linear-gradient(45deg, #30cafe 10%, #0929e4);;
+      font-size: 32px;
+      padding: 16px 16px 16px 100vw;
+      border-radius: 0% 0% 0% 0%;
+      transition: 1s;
+      cursor: pointer;
+      z-index: 8;
+    }
+
+    #quit{
+      position: fixed;
+      top: 0;
+      color: white;
+      font-size: 32px;
+      padding: 16px;
+      display: none;
+      cursor: pointer;
+      z-index: 10;
+    }
+
+    #back {
+      position: fixed;
+      top: 0;
+      color: white;
+      font-size: 32px;
+      padding: 16px;
+      display: none;
+      cursor: pointer;
+      z-index: 10;
+    }
+
+
+    #Data_Visualisation {
+      display: none;
+      flex-direction: column;
+      width: 100vw;
+      height: 50vh;
+      padding: 25vh 0;
+      justify-content: space-around;
+      transition: 2s;
+    }
+
+    #Data_Visualisation a{
+      text-align: center;
+      text-decoration: none;
+      color: white;
+      font-size: 1.8em;
+      font-family: 'Times New Roman';
+      z-index: 10;
+    }
+
+    #Data_Engineering {
+      display: none;
+      flex-direction: column;
+      width: 100vw;
+      height: 50vh;
+      padding: 25vh 0;
+      justify-content: space-around;
+      transition: 2s;
+    }
+
+    #Data_Engineering a{
+      text-align: center;
+      text-decoration: none;
+      color: white;
+      font-size: 1.8em;
+      font-family: 'Times New Roman';
+      z-index: 10;
+    }
+
+}
+
