@@ -2,8 +2,12 @@
     .content {
         height: calc(96vh - 61px);
         position: absolute;
-        bottom: 4vh;
+        top: 60px;
         z-index: 1;
+        text-align: center;
+        padding-bottom: 4vh;
+        padding-top: 32px;
+    }
 
     }
     .text-container {
@@ -97,11 +101,7 @@
 
 @media only screen and (min-width: 800px) {
 
-    .content{
-      text-align: center;
-    }
-
-     .content p {
+    .content p {
 
       max-width: 720px;
       margin-left: auto;
