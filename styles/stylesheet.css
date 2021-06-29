@@ -9,6 +9,9 @@
         padding-top: 32px;
     }
 
+    .content img{
+      width: 100%;
+
     }
     .text-container {
       text-align: center;
@@ -102,17 +105,15 @@
 @media only screen and (min-width: 800px) {
 
     .content p {
-
       max-width: 720px;
       margin-left: auto;
       margin-right: auto;
     }
 
-    .content img {
+    .content img{
       max-width: 720px;
       margin-left: auto;
       margin-right: auto;
-
     }
 
     .ThreeDImageTall{
