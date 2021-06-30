@@ -75,10 +75,10 @@
 
     .PolarImages img{
         text-align: center;
+        width: 256px;
     }
 
     .PolarImages {
-        width: 256px;
         display: inline;
     }
 
