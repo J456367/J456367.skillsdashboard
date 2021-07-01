@@ -1,12 +1,11 @@
 @media only screen and (min-width: 1px) {
     .content {
-        height: calc(96vh - 61px);
         position: absolute;
-        top: 60px;
+        top: 66px;
         z-index: 1;
         text-align: center;
-        padding-bottom: 4vh;
-        padding-top: 32px;
+        padding-bottom: calc(4vh);
+        padding-top: 4px;
     }
 
     .content img{
@@ -103,6 +102,10 @@
 }
 
 @media only screen and (min-width: 800px) {
+
+    .content {
+        height: calc(90vh);
+        }
 
     .content p {
       max-width: 720px;
