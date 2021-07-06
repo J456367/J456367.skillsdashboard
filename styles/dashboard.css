@@ -58,9 +58,17 @@
     .skills_dash {
         display: inline-block;
         width: 32vw;
-        height: 44vh;
+        height: 42vh;
         vertical-align:top
     }
+
+    .skills_dash_half {
+        display: inline-block;
+        width: 50vw;
+        height: 43vh;
+        vertical-align:top
+    }
+
 
     #content_dash {
         height: calc(100vh - calc(4vh + 66px));
@@ -69,7 +77,7 @@
     .skills_dash_double {
         display: inline-block;
         width: 64vw;
-        height: 44vh;
+        height: 42vh;
         vertical-align:top
     }
 
