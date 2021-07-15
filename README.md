@@ -6,7 +6,7 @@ This site is constructed with Python, Javascript, HTML and CSS.
 
 The aim of this site is to showcase technical skills and abilities.
 
-Technology Certifications: 44
+Technology Certifications: 45
 
 Design Certifications: 1
 
