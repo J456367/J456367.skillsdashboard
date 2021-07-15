@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <title>
+   Technology Portfolio
+  </title>
+  <title>
+   Technology Portfolio
+  </title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+  <link href="img_files/favicon.ico" rel="shortcut icon"/>
+  <link href="styles/mobile_navigation.css" rel="stylesheet"/>
+  <link href="styles/desktop_navigation.css" rel="stylesheet"/>
+  <link href="styles/certificates.css" rel="stylesheet"/>
+  <link href="styles/footer.css" rel="stylesheet"/>
+  <link href="styles/stylesheet.css" rel="stylesheet"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <meta content="https://raw.githubusercontent.com/J456367/J456367.skillsdashboard/main/img_files/render_01_small.jpg" property="og:image"/>
+  <meta content="1280" property="og:image:width"/>
+  <meta content="720" property="og:image:height"/>
+ </head>
+ <body>
+  <div class="mobile_navigation">
+<li id="burger2"></li>
+<i class="material-icons" id="burger" onclick="burger()">menu</i>
+<i class="material-icons" id="quit" onclick="quit()">clear</i>
+<i class="material-icons" id="back" onclick="back()">arrow_back</i>
+<div id="links">
+<button onclick="Data_Visualisation()">Data Visualisation</button>
+<button onclick="Data_Engineering()">Data Engineering</button>
+<hr/>
+<a href="Services.html">Services</a>
+<a href="Experience.html">Experience</a>
+<a href="Certifications.html">Certifications</a>
+<a href="Contact.html">Contact</a>
+<hr/>
+<a href="index.html"><img alt="Test Logo Remove" src="img_files/mt_test.png" style="width:50px;height:50px;"/></a>
+</div>
+<div id="Data_Visualisation">
+<a><b> - Data Visualisation - </b></a>
+<a href="skill_dashboard.html">Skill Dashboard</a>
+<a href="map.html">Map Visualisation - Test Data</a>
+<a href="Displacement_Mapping.html">Displacement Mapping - 3D Scatter</a>
+<br/>
+<a><b> - Computer Generated Imagery - </b></a>
+<a href="oris_artix_chronograph.html">Oris Artix Chronograph</a>
+<a href="Buick_Riveria_-_1972.html">Buick Riveria 1972</a>
+<a href="fortress.html">Fortress</a>
+<a href="Athena.html">Athena</a>
+<a href="Photogrammetry.html">Photogrammetry</a>
+</div>
+<div id="Data_Engineering">
+<a><b> - Data Engineering - </b></a>
+<a href="Augmented_Vision.html">Augmented Vision</a>
+<a href="Fibonacci_Sequence.html">Fibonnaci Sequence</a>
+<a href="Polar_Geometry.html"> Polar Sequencing</a>
+<a href="Sudoku_Solver.html">Sudoku Solver</a>
+<a href="Name_Classification.html">Classification Application</a>
+<a href="Computer_Vision.html">Computer Vision</a>
+<br/><br/>
+<a><b> - Current Project - </b></a>
+<a href="Titanic.html">Titanic Prediction</a>
+<br/>
+</div>
+<script>
+
+            function burger(){
+              var burger = document.getElementById('burger');
+              var burger2 = document.getElementById('burger2');
+              var links = document.getElementById('links');
+              var quit = document.getElementById('quit');
+
+              burger.style.padding = '16px 16px 200vw 200vw';
+              burger2.style.padding = '16px 200vw 200vw 16px';
+
+              links.style.display = 'flex';
+              quit.style.display = 'inline';
+            }
+
+            function quit(){
+              var burger = document.getElementById('burger');
+              var burger2 = document.getElementById('burger2');
+              var links = document.getElementById('links');
+              var quit = document.getElementById('quit');
+              burger.style.padding = '16px 16px 14px 100vw';
+              burger2.style.padding = '16px 16px 16px 100vw';
+              links.style.display = 'none';
+              quit.style.display = 'none';
+            }
+
+            function back(){
+              var burger = document.getElementById('burger');
+              var links = document.getElementById('links');
+              var quit = document.getElementById('quit');
+              var back = document.getElementById('back');
+              var vis = document.getElementById('Data_Visualisation');
+              var eng = document.getElementById('Data_Engineering');
+
+              burger.style.padding = '16px 16px 200vw 200vw';
+              links.style.display = 'flex';
+              quit.style.display = 'inline';
+              back.style.display = 'none';
+              vis.style.display = 'none';
+              eng.style.display = 'none';
+            }
+
+            function Data_Visualisation(){
+              var burger = document.getElementById('burger');
+              var links = document.getElementById('links');
+              var quit = document.getElementById('quit');
+              var vis = document.getElementById('Data_Visualisation');
+              var back = document.getElementById('back');
+
+              links.style.display = 'none';
+              vis.style.display = 'flex';
+              quit.style.display = 'none';
+              back.style.display = 'inline';
+
+            }
+
+            function Data_Engineering(){
+              var burger = document.getElementById('burger');
+              var links = document.getElementById('links');
+              var quit = document.getElementById('quit');
+              var eng = document.getElementById('Data_Engineering');
+              var back = document.getElementById('back');
+
+              links.style.display = 'none';
+              eng.style.display = 'flex';
+              quit.style.display = 'none';
+              back.style.display = 'inline';
+
+            }
+
+        </script>
+</div>
+  <br/>
+  <div class="content">
+  <div class="certificateBounding">
+  <div class="certificate">
+            <img    src="img_files/certificates/Coursera_J4S4CY3XCU38_small.png" 
+                    class="certificateFrame" 
+                    alt="J4S4CY3XCU38 Certificate">
+            <p><b>University of Michigan</b></p>
+            <p>Web Design for Everybody: Basics of Web Development & Coding Specialization<p>
+
+            </div>
+  <div class="certificate">
+            <img    src="img_files/certificates/Coursera_ASJZV53LE5QF_small.png" 
+                    class="certificateFrame" 
+                    alt="ASJZV53LE5QF Certificate">
+            <p><b>Google</b></p>
+            <p>Google IT Automation with Python Specialization<p>
+
+            </div>
+  <div class="certificate">
+            <img    src="img_files/certificates/Coursera_HBPZ28R9MW56_small.png" 
+                    class="certificateFrame" 
+                    alt="HBPZ28R9MW56 Certificate">
+            <p><b>Google</b></p>
+            <p>Google IT Support Specialization<p>
+
+            </div>
+  <div class="certificate">
+            <img    src="img_files/certificates/Coursera_N4KVJWSABELD_small.png" 
+                    class="certificateFrame" 
+                    alt="N4KVJWSABELD Certificate">
+            <p><b>Google Cloud</b></p>
+            <p>Machine Learning with TensorFlow on Google Cloud Platform Specialization<p>
+
+            </div>
+  <div class="certificate">
+            <img    src="img_files/certificates/Coursera_3YS4CNS7SR3U_small.png" 
+                    class="certificateFrame" 
+                    alt="3YS4CNS7SR3U Certificate">
+            <p><b>Google Cloud</b></p>
+            <p>Feature Engineering<p>
+
+            </div>
+  <div class="certificate">
+            <img    src="img_files/certificates/Coursera_JF2J3X37N95F_small.png" 
+                    class="certificateFrame" 
+                    alt="JF2J3X37N95F Certificate">
+            <p><b>University of Michigan</b></p>
+            <p>Web Design for Everybody Capstone<p>
+
+            </div>
+  <div class="certificate">
+            <img    src="img_files/certificates/Coursera_S9FRHBKTJ8R2_small.png" 
+                    class="certificateFrame" 
+                    alt="S9FRHBKTJ8R2 Certificate">
+            <p><b>University of Michigan</b></p>
+            <p>Database Design and Basic SQL in PostgreSQL<p>
+
+            </div>
+  <div class="certificate">
+            <img    src="img_files/certificates/Coursera_N5PSLF66WGYC_small.png" 
+                    class="certificateFrame" 
+                    alt="N5PSLF66WGYC Certificate">
+            <p><b>University of Michigan</b></p>
+            <p>Intermediate PostgreSQL<p>
+
+            </div>
+  <div class="certificate">
+            <img    src="img_files/certificates/Coursera_CJL5WQCJ8DNY_small.png" 
+                    class="certificateFrame" 
+                    alt="CJL5WQCJ8DNY Certificate">
+            <p><b>University of Michigan</b></p>
+            <p>JSON and Natural Language Processing in PostgreSQL<p>
+
+            </div>
+  <div class="certificate">
+            <img    src="img_files/certificates/Coursera_UUSJGEDX3Z4N_small.png" 
+                    class="certificateFrame" 
+                    alt="UUSJGEDX3Z4N Certificate">
+            <p><b>University of Michigan</b></p>
+            <p>Advanced Styling with Responsive Design<p>
+
+            </div>
+  <div class="certificate">
+            <img    src="img_files/certificates/Coursera_5K6JY7DUWB3G_small.png" 
+                    class="certificateFrame" 
+                    alt="5K6JY7DUWB3G Certificate">
+            <p><b>University of Michigan</b></p>
+            <p>Understanding and Visualizing Data with Python<p>
+
+            </div>
+  <div class="certificate">
+            <img    src="img_files/certificates/Coursera_T7FYBTM3D2DU_small.png" 
+                    class="certificateFrame" 
+                    alt="T7FYBTM3D2DU Certificate">
+            <p><b>University of Michigan</b></p>
+            <p>Interactivity with JavaScript<p>
+
+            </div>
+  <div class="certificate">
+            <img    src="img_files/certificates/Coursera_KA72VF3E8MYR_small.png" 
+                    class="certificateFrame" 
+                    alt="KA72VF3E8MYR Certificate">
+            <p><b>Google Cloud</b></p>
+            <p>Art and Science of Machine Learning<p>
+
+            </div>
+  <div class="certificate">
+            <img    src="img_files/certificates/Coursera_2H7UYZ4N8QCC_small.png" 
+                    class="certificateFrame" 
+                    alt="2H7UYZ4N8QCC Certificate">
+            <p><b>Google Cloud</b></p>
+            <p>How Google does Machine Learning<p>
+
+            </div>
+  <div class="certificate">
+            <img    src="img_files/certificates/Coursera_JXX99TTQSRMA_small.png" 
+                    class="certificateFrame" 
+                    alt="JXX99TTQSRMA Certificate">
+            <p><b>University of Michigan</b></p>
+            <p>Introduction to HTML5<p>
+
+            </div>
+  <div class="certificate">
+            <img    src="img_files/certificates/Coursera_CBU3442FSEKZ_small.png" 
+                    class="certificateFrame" 
+                    alt="CBU3442FSEKZ Certificate">
+            <p><b>Google Cloud</b></p>
+            <p>Launching into Machine Learning<p>
+
+            </div>
+  <div class="certificate">
+            <img    src="img_files/certificates/Coursera_7DCFZEEUWH38_small.png" 
+                    class="certificateFrame" 
+                    alt="7DCFZEEUWH38 Certificate">
+            <p><b>University of Michigan</b></p>
+            <p>Web Application Technologies and Django<p>
+
+            </div>
+  <div class="certificate">
+            <img    src="img_files/certificates/Coursera_VNZSXKEBX6ZE_small.png" 
+                    class="certificateFrame" 
+                    alt="VNZSXKEBX6ZE Certificate">
+            <p><b>University of Michigan</b></p>
+            <p>Building Web Applications in Django<p>
+
+            </div>
+  <div class="certificate">
+            <img    src="img_files/certificates/Coursera_AYSQECV2R2GD_small.png" 
+                    class="certificateFrame" 
+                    alt="AYSQECV2R2GD Certificate">
+            <p><b>Google Cloud</b></p>
+            <p>Introduction to TensorFlow<p>
+
+            </div>
+  <div class="certificate">
+            <img    src="img_files/certificates/Coursera_MUZGD2X2DQ3Z_small.png" 
+                    class="certificateFrame" 
+                    alt="MUZGD2X2DQ3Z Certificate">
+            <p><b>University of Michigan</b></p>
+            <p>Introduction to CSS3<p>
+
+            </div>
+  <div class="certificate">
+            <img    src="img_files/certificates/Coursera_EUALKHKH63HA_small.png" 
+                    class="certificateFrame" 
+                    alt="EUALKHKH63HA Certificate">
+            <p><b>Google</b></p>
+            <p>Troubleshooting and Debugging Techniques<p>
+
+            </div>
+  <div class="certificate">
+            <img    src="img_files/certificates/Coursera_9SLCU76DUVZM_small.png" 
+                    class="certificateFrame" 
+                    alt="9SLCU76DUVZM Certificate">
+            <p><b>Google</b></p>
+            <p>The Bits and Bytes of Computer Networking<p>
+
+            </div>
+  <div class="certificate">
+            <img    src="img_files/certificates/Coursera_A228XJS2F698_small.png" 
+                    class="certificateFrame" 
+                    alt="A228XJS2F698 Certificate">
+            <p><b>Google</b></p>
+            <p>IT Security: Defense against the digital dark arts<p>
+
+            </div>
+  <div class="certificate">
+            <img    src="img_files/certificates/Coursera_DGUXA5LS27ML_small.png" 
+                    class="certificateFrame" 
+                    alt="DGUXA5LS27ML Certificate">
+            <p><b>Google</b></p>
+            <p>Operating Systems and You: Becoming a Power User<p>
+
+            </div>
+  <div class="certificate">
+            <img    src="img_files/certificates/Coursera_C4L36UAMCKL4_small.png" 
+                    class="certificateFrame" 
+                    alt="C4L36UAMCKL4 Certificate">
+            <p><b>Google</b></p>
+            <p>System Administration and IT Infrastructure Services<p>
+
+            </div>
+  <div class="certificate">
+            <img    src="img_files/certificates/Coursera_LLM879AZZGPS_small.png" 
+                    class="certificateFrame" 
+                    alt="LLM879AZZGPS Certificate">
+            <p><b>Google</b></p>
+            <p>Introduction to Git and GitHub<p>
+
+            </div>
+  <div class="certificate">
+            <img    src="img_files/certificates/Coursera_367D3GHT83QD_small.png" 
+                    class="certificateFrame" 
+                    alt="367D3GHT83QD Certificate">
+            <p><b>Google</b></p>
+            <p>Using Python to Interact with the Operating System<p>
+
+            </div>
+  <div class="certificate">
+            <img    src="img_files/certificates/Coursera_2CWQZ5WUDHMH_small.png" 
+                    class="certificateFrame" 
+                    alt="2CWQZ5WUDHMH Certificate">
+            <p><b>Google</b></p>
+            <p>Configuration Management and the Cloud<p>
+
+            </div>
+  <div class="certificate">
+            <img    src="img_files/certificates/Coursera_QUQ8G5F8XK2P_small.png" 
+                    class="certificateFrame" 
+                    alt="QUQ8G5F8XK2P Certificate">
+            <p><b>Google</b></p>
+            <p>Crash Course on Python<p>
+
+            </div>
+  <div class="certificate">
+            <img    src="img_files/certificates/Coursera_EN9ZA3TW9742_small.png" 
+                    class="certificateFrame" 
+                    alt="EN9ZA3TW9742 Certificate">
+            <p><b>Google</b></p>
+            <p>Automating Real-World Tasks with Python<p>
+
+            </div>
+  <div class="certificate">
+            <img    src="img_files/certificates/Coursera_LNLWRYBV68R6_small.png" 
+                    class="certificateFrame" 
+                    alt="LNLWRYBV68R6 Certificate">
+            <p><b>Google</b></p>
+            <p>Technical Support Fundamentals<p>
+
+            </div>
+  <div class="certificate">
+            <img    src="img_files/certificates/HackerRank_c77d54268226_small.png" 
+                    class="certificateFrame" 
+                    alt="c77d54268226 Certificate">
+            <p><b>HackerRank</b></p>
+            <p>Problem Solving (Basic)<p>
+
+            </div>
+  <div class="certificate">
+            <img    src="img_files/certificates/HackerRank_fe1443f594be_small.png" 
+                    class="certificateFrame" 
+                    alt="fe1443f594be Certificate">
+            <p><b>HackerRank</b></p>
+            <p>SQL (Basic)<p>
+
+            </div>
+  <div class="certificate">
+            <img    src="img_files/certificates/HackerRank_ae8419a4c2d7_small.png" 
+                    class="certificateFrame" 
+                    alt="ae8419a4c2d7 Certificate">
+            <p><b>HackerRank</b></p>
+            <p>SQL (Intermediate)<p>
+
+            </div>
+  <div class="certificate">
+            <img    src="img_files/certificates/HackerRank_9aefa675e037_small.png" 
+                    class="certificateFrame" 
+                    alt="9aefa675e037 Certificate">
+            <p><b>HackerRank</b></p>
+            <p>Python (Basic)<p>
+
+            </div>
+  <div class="certificate">
+            <img    src="img_files/certificates/HackerRank_dd1ea820bbea_small.png" 
+                    class="certificateFrame" 
+                    alt="dd1ea820bbea Certificate">
+            <p><b>HackerRank</b></p>
+            <p>Python (Intermediate)<p>
+
+            </div>
+  <div class="certificate">
+            <img    src="img_files/certificates/HackerRank_fa98f4572e13_small.png" 
+                    class="certificateFrame" 
+                    alt="fa98f4572e13 Certificate">
+            <p><b>HackerRank</b></p>
+            <p>Python (Advanced)<p>
+
+            </div>
+  <div class="certificate">
+            <img    src="img_files/certificates/Udemy_UC-386fc811-344f-4cf3-b42a-acd497edfde3_small.png" 
+                    class="certificateFrame" 
+                    alt="UC-386fc811-344f-4cf3-b42a-acd497edfde3 Certificate">
+            <p><b>Udemy</b></p>
+            <p>Master SQL For Data Science<p>
+
+            </div>
+  <div class="certificate">
+            <img    src="img_files/certificates/Kaggle_Python_small.png" 
+                    class="certificateFrame" 
+                    alt="Python Certificate">
+            <p><b>Kaggle</b></p>
+            <p>Python<p>
+
+            </div>
+  <div class="certificate">
+            <img    src="img_files/certificates/Kaggle_Pandas_small.png" 
+                    class="certificateFrame" 
+                    alt="Pandas Certificate">
+            <p><b>Kaggle</b></p>
+            <p>Pandas<p>
+
+            </div>
+  <div class="certificate">
+            <img    src="img_files/certificates/Kaggle_DataCleaning_small.png" 
+                    class="certificateFrame" 
+                    alt="DataCleaning Certificate">
+            <p><b>Kaggle</b></p>
+            <p>Data Cleaning<p>
+
+            </div>
+  <div class="certificate">
+            <img    src="img_files/certificates/Kaggle_DataVisualization_small.png" 
+                    class="certificateFrame" 
+                    alt="DataVisualization Certificate">
+            <p><b>Kaggle</b></p>
+            <p>Data Visualization<p>
+
+            </div>
+  <div class="certificate">
+            <img    src="img_files/certificates/Kaggle_IntroToMachineLearning_small.png" 
+                    class="certificateFrame" 
+                    alt="IntroToMachineLearning Certificate">
+            <p><b>Kaggle</b></p>
+            <p>Intro to Machine Learning<p>
+
+            </div>
+  <div class="certificate">
+            <img    src="img_files/certificates/Kaggle_IntroToSQL_small.png" 
+                    class="certificateFrame" 
+                    alt="IntroToSQL Certificate">
+            <p><b>Kaggle</b></p>
+            <p>Intro To SQL<p>
+
+            </div>
+  </div>
+  <div class="certificateBounding">
+  <div class="certificateTall">
+            <img    src="img_files/certificates/Unknown_CDF12_small.png" 
+                    class="certificateFrame" 
+                    alt="CDF12 Certificate">
+            <p><b>Unknown</b></p>
+            <p>Certificate III in Design Fundamentals<p>
+
+            </div>
+  <div class="certificateTall">
+            <img    src="img_files/certificates/Unknown_BADM3DA14_small.png" 
+                    class="certificateFrame" 
+                    alt="BADM3DA14 Certificate">
+            <p><b>Unknown</b></p>
+            <p>Associate of Digital Media (3D Design and Animation)<p>
+
+            </div>
+  </div>
+  <div class="additionalResources">
+            <h2>HackerRank Badges</h2>
+                <div class="certExpand">    
+                    <button onclick="myBadge()">
+                        <img    src="img_files/down-arrow.png" 
+                                alt="arrow">
+                    </button>
+                </div>
+            <div id="expandBadges">
+  <div class="certificateBounding">
+  <div class="certificateTall">
+            <a href="">
+                <img    src="img_files/badges/Problem_Solving.png" 
+                        class="certificateFrame"  
+                        alt="Problem Solving Badge Image">
+            </a>
+            <h3>Problem Solving</h3>
+            <p>HackerRank</p>
+        </div>
+  <div class="certificateTall">
+            <a href="">
+                <img    src="img_files/badges/Python.png" 
+                        class="certificateFrame"  
+                        alt="Python Badge Image">
+            </a>
+            <h3>Python</h3>
+            <p>HackerRank</p>
+        </div>
+  <div class="certificateTall">
+            <a href="">
+                <img    src="img_files/badges/Sql.png" 
+                        class="certificateFrame"  
+                        alt="Sql Badge Image">
+            </a>
+            <h3>Sql</h3>
+            <p>HackerRank</p>
+        </div>
+  <div class="certificateTall">
+            <a href="">
+                <img    src="img_files/badges/30_Days_of_Code.png" 
+                        class="certificateFrame"  
+                        alt="30 Days of Code Badge Image">
+            </a>
+            <h3>30 Days of Code</h3>
+            <p>HackerRank</p>
+        </div>
+  <div class="certificateTall">
+            <a href="">
+                <img    src="img_files/badges/10_Days_of_Statistics.png" 
+                        class="certificateFrame"  
+                        alt="10 Days of Statistics Badge Image">
+            </a>
+            <h3>10 Days of Statistics</h3>
+            <p>HackerRank</p>
+        </div>
+  <div class="certificateTall">
+            <a href="">
+                <img    src="img_files/badges/10_Days_of_JavaScript.png" 
+                        class="certificateFrame"  
+                        alt="10 Days of JavaScript Badge Image">
+            </a>
+            <h3>10 Days of JavaScript</h3>
+            <p>HackerRank</p>
+        </div>
+  </div>
+  </div>
+        </div>
+
+        <script>
+           function myBadge() {
+             var x = document.getElementById("expandBadges");
+             if (x.style.display === "none") {
+               x.style.display = "block";
+             } else {
+               x.style.display = "none";
+             }
+           }
+           document.getElementById("expandBadges").style.display = "none";
+        </script>'
+  <div class="additionalResources">
+            <h2>Gnomon Tutorials</h2>
+                <div class="certExpand">    
+                    <button onclick="myTutorials()">
+                        <img    src="img_files/down-arrow.png" 
+                                alt="arrow">
+                    </button>
+                </div>
+            <div id="expandTutorials">
+  <div class="certificateBounding"> 
+<br>
+  <div class="certificateTall">
+            <a href="https://cgfutures.com/gnomon-live-2016/">
+                <img    src="img_files/tutorials/Gnomon_Live_-_2016.jpg" 
+                        class="certificateFrame" 
+                        alt="Gnomon Live - 2016 Tutorial Image">
+            </a>
+            <h3>Gnomon Live - 2016</h3>
+            <p>Gnomon</p>
+        </div>
+  <div class="certificateTall">
+            <a href="https://www.thegnomonworkshop.com/tutorials/creating-terrains-with-satellite-data-volume-1">
+                <img    src="img_files/tutorials/CREATING_TERRAINS_WITH_SATELLITE_DATA,_VOLUME_1.jpg" 
+                        class="certificateFrame" 
+                        alt="CREATING TERRAINS WITH SATELLITE DATA, VOLUME 1 Tutorial Image">
+            </a>
+            <h3>CREATING TERRAINS WITH SATELLITE DATA, VOLUME 1</h3>
+            <p>Gnomon Workshop</p>
+        </div>
+  <div class="certificateTall">
+            <a href="https://www.thegnomonworkshop.com/tutorials/creating-terrains-with-satellite-data-volume-2">
+                <img    src="img_files/tutorials/CREATING_TERRAINS_WITH_SATELLITE_DATA,_VOLUME_2.jpg" 
+                        class="certificateFrame" 
+                        alt="CREATING TERRAINS WITH SATELLITE DATA, VOLUME 2 Tutorial Image">
+            </a>
+            <h3>CREATING TERRAINS WITH SATELLITE DATA, VOLUME 2</h3>
+            <p>Gnomon Workshop</p>
+        </div>
+  <div class="certificateTall">
+            <a href="https://www.thegnomonworkshop.com/tutorials/creating-plants-in-maya-mental-ray">
+                <img    src="img_files/tutorials/CREATING_PLANTS_IN_MAYA_MENTAL_RAY.jpg" 
+                        class="certificateFrame" 
+                        alt="CREATING PLANTS IN MAYA MENTAL RAY Tutorial Image">
+            </a>
+            <h3>CREATING PLANTS IN MAYA MENTAL RAY</h3>
+            <p>Gnomon Workshop</p>
+        </div>
+  <div class="certificateTall">
+            <a href="https://www.thegnomonworkshop.com/tutorials/grass-and-plant-instancing-in-maya-mental-ray">
+                <img    src="img_files/tutorials/GRASS_AND_PLANT_INSTANCING_IN_MAYA_MENTAL_RAY.jpg" 
+                        class="certificateFrame" 
+                        alt="GRASS AND PLANT INSTANCING IN MAYA MENTAL RAY Tutorial Image">
+            </a>
+            <h3>GRASS AND PLANT INSTANCING IN MAYA MENTAL RAY</h3>
+            <p>Gnomon Workshop</p>
+        </div>
+  <div class="certificateTall">
+            <a href="https://www.thegnomonworkshop.com/tutorials/advanced-3d-matte-painting-techniques">
+                <img    src="img_files/tutorials/ADVANCED_3D_MATTE_PAINTING_TECHNIQUES.jpg" 
+                        class="certificateFrame" 
+                        alt="ADVANCED 3D MATTE PAINTING TECHNIQUES Tutorial Image">
+            </a>
+            <h3>ADVANCED 3D MATTE PAINTING TECHNIQUES</h3>
+            <p>Gnomon Workshop</p>
+        </div>
+  <div class="certificateTall">
+            <a href="https://www.thegnomonworkshop.com/tutorials/creating-an-epic-matte-painting-shot">
+                <img    src="img_files/tutorials/CREATING_AN_EPIC_MATTE_PAINTING_SHOT.jpg" 
+                        class="certificateFrame" 
+                        alt="CREATING AN EPIC MATTE PAINTING SHOT Tutorial Image">
+            </a>
+            <h3>CREATING AN EPIC MATTE PAINTING SHOT</h3>
+            <p>Gnomon Workshop</p>
+        </div>
+  <div class="certificateTall">
+            <a href="https://www.thegnomonworkshop.com/tutorials/creature-rigging-for-production">
+                <img    src="img_files/tutorials/Creature_Rigging_for_Production.jpg" 
+                        class="certificateFrame" 
+                        alt="Creature Rigging for Production Tutorial Image">
+            </a>
+            <h3>Creature Rigging for Production</h3>
+            <p>Gnomon Workshop</p>
+        </div>
+  <div class="certificateTall">
+            <a href="https://www.thegnomonworkshop.com/tutorials/substance-designer">
+                <img    src="img_files/tutorials/SUBSTANCE_DESIGNER.jpg" 
+                        class="certificateFrame" 
+                        alt="SUBSTANCE DESIGNER Tutorial Image">
+            </a>
+            <h3>SUBSTANCE DESIGNER</h3>
+            <p>Gnomon Workshop</p>
+        </div>
+  </div>
+  </div>
+        </div>
+
+        <script>
+           function myTutorials() {
+             var x = document.getElementById("expandTutorials");
+             if (x.style.display === "none") {
+               x.style.display = "block";
+             } else {
+               x.style.display = "none";
+             }
+           }
+           document.getElementById("expandTutorials").style.display = "none";
+        </script>'
+  <div class="additionalResources">
+            <h2>Additional Resources</h2>
+                <div class="certExpand">    
+                    <button onclick="Additional_Resources()">
+                        <img    src="img_files/down-arrow.png" 
+                                alt="arrow">
+                    </button>
+                </div>
+            <div id="expandAdditional_Resources">
+  <br>
+   <h3>A Collection of Useful Online Resources</h3>
+   
+   <a  href="https://ocw.mit.edu/" 
+        target="_blank">
+        MIT Open Courseware</a><br>  
+         
+   <a  href="https://www.hackerrank.com/" 
+        target="_blank">
+        HackerRank</a><br>  
+        
+   <a  href="https://www.coursera.org/" 
+        target="_blank">
+        Coursera</a><br>
+   
+   <a  href="https://www.kaggle.com/" 
+        target="_blank">
+        Kaggle</a><br>         
+    
+    <h3>A Collection of Useful Text Resources</h3>  
+        
+    <a  href="https://mitpress.mit.edu/books/introduction-computation-and-programming-using-python-second-edition"
+        target="_blank">
+        Introduction to Computation and Programming Using Python - John V. Guttag</a><br>
+    
+    <a  href="https://math.mit.edu/~gs/linearalgebra/" 
+        target="_blank">
+        Introduction to Linear Algebra - Gilbert Strang</a><br>     
+            
+    <a  href="https://www.oreilly.com/library/view/splunk-operational-intelligence/9781788835237/"
+        target="_blank">
+        Machine Data Analysis: Splunk Operational Intelligence Cookbook</a><br>
+    
+    <a href="https://automatetheboringstuff.com/"
+        target="_blank">
+        How to Automate the Boring Stuff with Python - Al Sweigart</a><br>
+    
+    <a  href="https://www.oreilly.com/library/view/python-for-data/9781491957653/"
+        target="_blank">
+        Python for Data Analysis - Wes Mckinney</a><br>
+    
+    <a  href="https://nostarch.com/pythoncrashcourse2e"
+        target="_blank">
+        Python Crash Course - Eric Matthes</a><br>
+  <div class="certificateBounding"> 
+<br>
+  </div>
+  </div>
+        </div>
+
+        <script>
+           function Additional_Resources() {
+             var x = document.getElementById("expandAdditional_Resources");
+             if (x.style.display === "none") {
+               x.style.display = "block";
+             } else {
+               x.style.display = "none";
+             }
+           }
+           document.getElementById("expandAdditional_Resources").style.display = "none";
+        </script>'
+  <br><br><br> <p>_</p>
+  </div>
+  <div class="footer">
+<a href="index.html"><img alt="Test Logo Remove" src="img_files/mt_test.png" style="width:50px;height:50px;"/></a>
+</div>
+ </body>
+</html>

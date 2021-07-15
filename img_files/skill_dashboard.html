@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <title>
+   Technology Portfolio
+  </title>
+  <link href="styles/dashboard.css" rel="stylesheet"/>
+  <title>
+   Technology Portfolio
+  </title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
+  <link href="img_files/favicon.ico" rel="shortcut icon"/>
+  <link href="styles/mobile_navigation.css" rel="stylesheet"/>
+  <link href="styles/desktop_navigation.css" rel="stylesheet"/>
+  <link href="styles/certificates.css" rel="stylesheet"/>
+  <link href="styles/footer.css" rel="stylesheet"/>
+  <link href="styles/stylesheet.css" rel="stylesheet"/>
+  <meta content="width=device-width, initial-scale=1" name="viewport"/>
+  <meta content="https://raw.githubusercontent.com/J456367/J456367.skillsdashboard/main/img_files/render_01_small.jpg" property="og:image"/>
+  <meta content="1280" property="og:image:width"/>
+  <meta content="720" property="og:image:height"/>
+ </head>
+ <body>
+  <div class="mobile_navigation">
+<li id="burger2"></li>
+<i class="material-icons" id="burger" onclick="burger()">menu</i>
+<i class="material-icons" id="quit" onclick="quit()">clear</i>
+<i class="material-icons" id="back" onclick="back()">arrow_back</i>
+<div id="links">
+<button onclick="Data_Visualisation()">Data Visualisation</button>
+<button onclick="Data_Engineering()">Data Engineering</button>
+<hr/>
+<a href="Services.html">Services</a>
+<a href="Experience.html">Experience</a>
+<a href="Certifications.html">Certifications</a>
+<a href="Contact.html">Contact</a>
+<hr/>
+<a href="index.html"><img alt="Test Logo Remove" src="img_files/mt_test.png" style="width:50px;height:50px;"/></a>
+</div>
+<div id="Data_Visualisation">
+<a><b> - Data Visualisation - </b></a>
+<a href="skill_dashboard.html">Skill Dashboard</a>
+<a href="map.html">Map Visualisation - Test Data</a>
+<a href="Displacement_Mapping.html">Displacement Mapping - 3D Scatter</a>
+<br/>
+<a><b> - Computer Generated Imagery - </b></a>
+<a href="oris_artix_chronograph.html">Oris Artix Chronograph</a>
+<a href="Buick_Riveria_-_1972.html">Buick Riveria 1972</a>
+<a href="fortress.html">Fortress</a>
+<a href="Athena.html">Athena</a>
+<a href="Photogrammetry.html">Photogrammetry</a>
+</div>
+<div id="Data_Engineering">
+<a><b> - Data Engineering - </b></a>
+<a href="Augmented_Vision.html">Augmented Vision</a>
+<a href="Fibonacci_Sequence.html">Fibonnaci Sequence</a>
+<a href="Polar_Geometry.html"> Polar Sequencing</a>
+<a href="Sudoku_Solver.html">Sudoku Solver</a>
+<a href="Name_Classification.html">Classification Application</a>
+<a href="Computer_Vision.html">Computer Vision</a>
+<br/><br/>
+<a><b> - Current Project - </b></a>
+<a href="Titanic.html">Titanic Prediction</a>
+<br/>
+</div>
+<script>
+
+            function burger(){
+              var burger = document.getElementById('burger');
+              var burger2 = document.getElementById('burger2');
+              var links = document.getElementById('links');
+              var quit = document.getElementById('quit');
+
+              burger.style.padding = '16px 16px 200vw 200vw';
+              burger2.style.padding = '16px 200vw 200vw 16px';
+
+              links.style.display = 'flex';
+              quit.style.display = 'inline';
+            }
+
+            function quit(){
+              var burger = document.getElementById('burger');
+              var burger2 = document.getElementById('burger2');
+              var links = document.getElementById('links');
+              var quit = document.getElementById('quit');
+              burger.style.padding = '16px 16px 14px 100vw';
+              burger2.style.padding = '16px 16px 16px 100vw';
+              links.style.display = 'none';
+              quit.style.display = 'none';
+            }
+
+            function back(){
+              var burger = document.getElementById('burger');
+              var links = document.getElementById('links');
+              var quit = document.getElementById('quit');
+              var back = document.getElementById('back');
+              var vis = document.getElementById('Data_Visualisation');
+              var eng = document.getElementById('Data_Engineering');
+
+              burger.style.padding = '16px 16px 200vw 200vw';
+              links.style.display = 'flex';
+              quit.style.display = 'inline';
+              back.style.display = 'none';
+              vis.style.display = 'none';
+              eng.style.display = 'none';
+            }
+
+            function Data_Visualisation(){
+              var burger = document.getElementById('burger');
+              var links = document.getElementById('links');
+              var quit = document.getElementById('quit');
+              var vis = document.getElementById('Data_Visualisation');
+              var back = document.getElementById('back');
+
+              links.style.display = 'none';
+              vis.style.display = 'flex';
+              quit.style.display = 'none';
+              back.style.display = 'inline';
+
+            }
+
+            function Data_Engineering(){
+              var burger = document.getElementById('burger');
+              var links = document.getElementById('links');
+              var quit = document.getElementById('quit');
+              var eng = document.getElementById('Data_Engineering');
+              var back = document.getElementById('back');
+
+              links.style.display = 'none';
+              eng.style.display = 'flex';
+              quit.style.display = 'none';
+              back.style.display = 'inline';
+
+            }
+
+        </script>
+</div>
+  <div class="content" id="content_dash">      
+    
+        <h1>Technology Skills Dashboard</h1>
+        
+        <div class="skills_dash">
+             <div class="dash-logo">
+    
+                <img src="visualisations/skills_dashboard_output/logos/python-icon.svg">
+    
+                <img src="visualisations/skills_dashboard_output/logos/pandas-icon.svg">
+                <img src="visualisations/skills_dashboard_output/logos/numpy-icon.svg">
+                <img src="visualisations/skills_dashboard_output/logos/sql-database.svg">
+                <img src="visualisations/skills_dashboard_output/logos/tensorflow-icon.svg">
+    
+                <img src="visualisations/skills_dashboard_output/logos/plotly-icon.svg">
+    
+                <img src="visualisations/skills_dashboard_output/logos/google-cloud-icon.svg">
+    
+                <img src="visualisations/skills_dashboard_output/logos/javascript.svg">
+                <img src="visualisations/skills_dashboard_output/logos/html-icon.svg">
+                <img src="visualisations/skills_dashboard_output/logos/css-icon.svg">
+            </div>
+
+            <div class="dash-text">
+                <p>The purpose of this dashboard is to show case skill distribution and tools.</p>
+                <p>Technology Certifications: connect backend</p>
+    
+                <p>Work to be Done on this Dashboard:
+                    <ul>
+                    <li>Hover Details for Icons</li>
+                    <li>Create Visualisation for Missing Container</li>
+                    <li>Build out Data for Test Time Series Graph</li>
+                    <li>Adjust CSS for mobile, this will allowing scrolling visualualisation and readability</li>
+                    <li>With the coursera skills, break the bar charts down, add hackerrank, textbooks, projects<li>
+                    </ul>
+                </p>
+                
+                <p>Add details of non-technical skills, communication, strategy, implementation</p>
+            </div>
+    
+
+    
+        </div>
+        
+        <div class="skills_dash_double">
+            <iframe src="visualisations/skills_dashboard_output/subplots/Coursera.html"></iframe>
+        </div>
+      
+    
+        
+    
+        <div class="skills_dash">
+            <iframe src="visualisations/skills_dashboard_output/subplots/SQL.html"></iframe>
+        </div>
+    
+        <div class="skills_dash">
+            <iframe src="visualisations/skills_dashboard_output/subplots/Python.html"></iframe>
+    
+        </div>
+    
+        <div class="skills_dash">
+            <iframe src="visualisations/skills_dashboard_output/subplots/Skills_Timeline.html"></iframe>
+        </div>
+    </div>
+  <div class="footer">
+<a href="index.html"><img alt="Test Logo Remove" src="img_files/mt_test.png" style="width:50px;height:50px;"/></a>
+</div>
+ </body>
+</html>
