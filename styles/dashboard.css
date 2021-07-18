@@ -64,16 +64,15 @@
 
     .skills_dash_half {
         display: inline-block;
-        width: 50vw;
-        height: 43vh;
+        width: 48vw;
+        height: 42vh;
+        position: relative;
         vertical-align:top
     }
-
 
     #content_dash {
         width: 100%;
         height: calc(100vh - 4vh - 76px);
-
     }
 
     .skills_dash_double {
@@ -81,6 +80,22 @@
         width: 64vw;
         height: 42vh;
         vertical-align:top
+    }
+
+    .round_chart_small{
+        height: 55%;
+        width: 65%;
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+
+    .round_chart_large{
+        height: 55%;
+        width: 75%;
+        position: absolute;
+        right: 0;
+        bottom: 0;
     }
 
     .dash-logo{
@@ -100,6 +115,5 @@
         width: 74%;
         height: 100%;
         padding: 2%;
-
     }
 }
