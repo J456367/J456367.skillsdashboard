@@ -1,4 +1,14 @@
 @media only screen and (min-width: 1px) {
+
+    .menu-links {
+        display: flex;
+        position: fixed;
+        top: 50vh;
+        left: 50vw;
+        transform: translate(-50vw, -50vh);
+        z-index: 8;
+    }
+
     .content {
         position: absolute;
         top: 66px;
