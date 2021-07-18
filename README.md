@@ -4,6 +4,7 @@
 
 ## Links to site
 [Technology Portfolio - Index Page](https://j456367.github.io/J456367.skillsdashboard/)
+
 [Technology Skill Visualisation: Skills Dashboard](https://j456367.github.io/J456367.skillsdashboard/skill_dashboard.html)
 
 ## About
@@ -17,7 +18,7 @@ Design Certifications: 1
 
 ## Contents 
 * Data Visualisation 
-    * Dashboards & Graphs
+    * Dashboards & Data Visualisations
     * Computer Generated Imagery
 * Data Engineering
 * Services
