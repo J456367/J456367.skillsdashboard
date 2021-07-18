@@ -71,7 +71,9 @@
 
 
     #content_dash {
-        height: calc(100vh - calc(4vh + 66px));
+        width: 100%;
+        height: calc(100vh - 4vh - 76px);
+
     }
 
     .skills_dash_double {
