@@ -1,5 +1,9 @@
 @media only screen and (min-width: 1px) {
 
+    #black-background {
+        background: black;
+    }
+
     .menu-links {
         display: flex;
         position: fixed;
@@ -131,6 +135,10 @@
       max-width: 720px;
       margin-left: auto;
       margin-right: auto;
+    }
+
+    .vimeo {
+        height: 720px;
     }
 
     .ThreeDImageTall{
