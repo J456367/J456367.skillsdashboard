@@ -13,6 +13,11 @@
         display: block;
     }
 
+    #content_dash h1{
+        text-align: left;
+        margin-left: 1vw;
+    }
+
     .skills_dash {
         display: block;
         width: 100vw;
@@ -34,37 +39,87 @@
 
     .dash-logo{
        display: inline-block;
+       text-align: left;
        vertical-align:top;
-       padding: 2%;
+       padding: 1%;
        width: 16%;
        height: 100%;
     }
     .dash-logo img{
+       display: block;
        width: 100%;
        max-height: 9.1%;
     }
 
     .dash-text {
+        text-align: left;
         display: inline-block;
         width: 74%;
         height: 100%;
-        padding: 2%;
     }
+
+    .LogoHover {
+      position: relative;
+      display: inline;
+    }
+
+    .LogoHover .LogoHoverText {
+      visibility: hidden;
+      width: 120px;
+      background-color: black;
+      color: #fff;
+      text-align: center;
+      border-radius: 6px;
+      padding: 5px 0;
+
+      /* Position the tooltip */
+      position: absolute;
+      z-index: 1;
+    }
+
+    .LogoHover:hover .LogoHoverText {
+      visibility: visible;
+    }
+
+    .skills_dash_double {
+        display: block;
+        width: 100vw;
+        height: 1200px;
+        vertical-align:top
+    }
+
+    .round_chart_small {
+        height: 50%;
+        width: 100%;
+    }
+
+    .round_chart_large {
+        height: 50%;
+        width: 100%;
+    }
+
+    .skills_dash_half {
+        height: 800px;
+        width: 100%;
+    }
+
 }
+
 
 
 @media only screen and (min-width: 800px) {
 
     .skills_dash {
+        text-align: left;
         display: inline-block;
-        width: 32vw;
+        width: 35vw;
         height: 42vh;
         vertical-align:top
     }
 
     .skills_dash_half {
         display: inline-block;
-        width: 48vw;
+        width: 49vw;
         height: 42vh;
         position: relative;
         vertical-align:top
@@ -101,11 +156,12 @@
     .dash-logo{
        display: inline-block;
        vertical-align:top;
-       padding: 2%;
+       padding: 1%;
        width: 16%;
        height: 100%;
     }
     .dash-logo img{
+       display: block;
        width: 100%;
        max-height: 9.1%;
     }
@@ -114,6 +170,6 @@
         display: inline-block;
         width: 74%;
         height: 100%;
-        padding: 2%;
+
     }
 }
