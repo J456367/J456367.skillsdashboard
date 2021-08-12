@@ -27,7 +27,7 @@
 
     }
     .text-container {
-      text-align: center;
+      text-align: left;
       margin-right: auto;
       margin-left: auto;
       width: 100vw;
@@ -47,7 +47,7 @@
     }
 
     .text-container ul {
-        text-align: center;
+        text-align: left;
         list-style-position: inside;
     }
 
@@ -55,7 +55,7 @@
         width: 100%;
     }
 
-    IFrame {
+/*    IFrame {
         display: block;
         background: #0000;
         border: none;
@@ -63,7 +63,7 @@
         bottom: 0; left: 0;
         height: 100%;
         width: 100%;
-    }
+    }*/
 
     .vimeo {
         max-height: 400px;
@@ -123,13 +123,12 @@
 
     .content {
         height: calc(90vh);
+        text-align: none;
         }
 
-    .content p {
-      max-width: 720px;
-      margin-left: auto;
-      margin-right: auto;
-    }
+/*    .content p {
+      width: 720px;
+        }*/
 
     .content img{
       max-width: 720px;
@@ -137,8 +136,12 @@
       margin-right: auto;
     }
 
-    .vimeo {
-        height: 720px;
+    .text-container {
+      text-align: left;
+      padding-left: calc((100vw - 720px)/2);
+      padding-right: calc((100vw - 720px)/2);
+      width: auto;
+      min-width: 720px;
     }
 
     .ThreeDImageTall{
@@ -174,11 +177,10 @@
         height: 100%;
     }
 
-    iframe {
-        border: 0;
-        width: 100%;
-        height: 100%;
+    .vimeo {
+        height: 400px;
     }
+
 
 }
 
