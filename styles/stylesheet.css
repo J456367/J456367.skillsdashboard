@@ -65,6 +65,20 @@
         height: 860px;
     }
 
+    .social_links {
+        display: inline;
+    }
+
+    .social_links img{
+        width: 36px;
+        height: 36px;
+    }
+
+    .social_links button{
+        text-align: center;
+
+    }
+
 /*    IFrame {
         display: block;
         background: #0000;
