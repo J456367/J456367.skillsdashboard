@@ -78,6 +78,32 @@
         width: 50px;
     }
 
+    .link_box_container {
+        margin-top: 24px;
+        margin-bottom: 24px;
+        display: block;
+        text-align: center;
+    }
+
+    .link_box {
+        vertical-align:top;
+        height: 100px;
+        width: 200px;
+        background-color: #2ec3fd;
+        border: rgb(9 41 228);;
+        border-style: solid;
+        border-width: 2px;
+        border-height: 2px;
+        border-radius: 10px;
+        display: inline-block;
+        margin: 0 3px 0 3px;
+    }
+
+    .link_box img{
+        height: 36px;
+        width: 36px;
+    }
+
     .social_links {
         display: inline;
     }
