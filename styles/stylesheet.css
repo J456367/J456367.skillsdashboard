@@ -62,7 +62,20 @@
     }
 
     .form {
-        height: 860px;
+        height: 518px;
+        overflow-y: scroll;
+        margin-top: 20px;
+        margin-bottom: 14px;
+        }
+
+    .form iframe{
+        height: 940px;
+    }
+
+
+    #collapse_form {
+        height: 10px;
+        width: 50px;
     }
 
     .social_links {
@@ -163,10 +176,10 @@
       border-radius: 10px;
     }
 
-    /* Handle on hover */
+/*    *//* Handle on hover *//*
     ::-webkit-scrollbar-thumb:hover {
       background: #b30000;
-    }
+    }*/
 
     .content {
         height: calc(90vh);
