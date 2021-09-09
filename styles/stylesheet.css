@@ -87,7 +87,7 @@
 
     .link_box {
         vertical-align:top;
-        height: 100px;
+        height: 86px;
         width: 200px;
         background-color: #2ec3fd;
         border: rgb(9 41 228);;
@@ -251,10 +251,10 @@
       width: 100%
     }
 
-    .skills_dash img{
+/*    .skills_dash img{
        width: 48%;
-       max-height: 10%;
-    }
+       height: 10%;
+    }*/
 
     .mini {
         display: inline-block;

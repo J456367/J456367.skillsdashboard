@@ -156,14 +156,13 @@
     .dash-logo{
        display: inline-block;
        vertical-align:top;
-       padding: 1%;
        width: 16%;
        height: 100%;
     }
     .dash-logo img{
        display: block;
        width: 100%;
-       max-height: 9.1%;
+       height: 10%;
     }
 
     .dash-text {
