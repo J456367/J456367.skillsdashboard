@@ -207,6 +207,35 @@
       background: #b30000;
     }*/
 
+    .services-panel {
+        display: flex;
+        height: 99%;
+        width: 100%;
+    }
+
+    .services_index_panel {
+        margin: 4px;
+        border-style: solid;
+        padding-left: 16px;
+        padding-right: 16px;
+        width: 30vw;
+        height: 100%;
+        text-align: left;
+    }
+
+    .services_content {
+        padding-right: 16px;
+        width: 65vw;
+        height: 100%;
+        overflow-y: scroll;
+    }
+
+    .service_details{
+        border-style: solid;
+        margin-top: 4px;
+        padding: 6px;
+    }
+
     .content {
         height: calc(90vh);
         text-align: none;
